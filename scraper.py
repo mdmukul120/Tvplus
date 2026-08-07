@@ -1,13 +1,21 @@
 import re
 import sys
-import urllib.parse
 import cloudscraper
 
 TOKEN_URL = "https://api.hridoytvheart.workers.dev/get-token"
 PLAYLIST_BASE_URL = "https://api.hridoytvheart.workers.dev/master.m3u"
 
-def get_valid_token(scraper):
-    headers = {
+def run_scraper():
+    # Cloudflare scraper ইনিশিয়ালাইজেশন
+    scraper = cloudscraper.create_scraper(
+        browser={
+            'browser': 'chrome',
+            'platform': 'windows',
+            'desktop': True
+        }
+    )
+
+    base_headers = {
         'Accept': 'application/json, text/plain, */*',
         'Accept-Language': 'en-US,en;q=0.9',
         'Origin': 'https://hridoytv.pages.dev',
@@ -22,63 +30,63 @@ def get_valid_token(scraper):
     }
 
     try:
-        response = scraper.get(TOKEN_URL, headers=headers, timeout=15)
-        print(f"Token API Status Code: {response.status_code}")
-        print(f"Token API Response Raw: {response.text}")
-
-        if response.status_code == 200:
-            data = response.json()
-            token = data.get("token") or data.get("data", {}).get("token") or data.get("result", {}).get("token")
-            if token:
-                print(f"Fetched Token Successfully: {token}")
-                return token
-            else:
-                print("Token key missing in JSON response.")
-        return None
-    except Exception as e:
-        print(f"Error fetching token: {e}")
-        return None
-
-def fetch_m3u_playlist(token, scraper):
-    # params দিয়ে পাঠালে requests/cloudscraper অটোমেটিক URL Encode করে দেয়
-    params = {'token': token}
-    
-    headers = {
-        'Accept': 'text/plain, */*; q=0.01',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Origin': 'https://hridoytv.pages.dev',
-        'Referer': 'https://hridoytv.pages.dev/',
-        'Sec-Ch-Ua': '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
-        'Sec-Ch-Ua-Mobile': '?0',
-        'Sec-Ch-Ua-Platform': '"Windows"',
-        'Sec-Fetch-Dest': 'empty',
-        'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Site': 'cross-site',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
-    }
-    
-    try:
-        response = scraper.get(PLAYLIST_BASE_URL, params=params, headers=headers, timeout=20)
-        print(f"Playlist API Status Code: {response.status_code}")
+        # ১. টোকেন ও সেশন কুকি সংগ্রহ
+        token_res = scraper.get(TOKEN_URL, headers=base_headers, timeout=15)
+        print(f"Token Status Code: {token_res.status_code}")
         
-        # যদি params কাজ না করে, URL Encode করে সরাসরি ট্রাই করা
-        if response.status_code != 200 or "Invalid" in response.text:
-            encoded_token = urllib.parse.quote(token, safe='')
-            direct_url = f"{PLAYLIST_BASE_URL}?token={encoded_token}"
-            response = scraper.get(direct_url, headers=headers, timeout=20)
-            print(f"Retry Playlist API Status Code: {response.status_code}")
-
-        if response.status_code == 200 and not response.text.startswith("{"):
-            return response.text
-        else:
-            print(f"Playlist Error Raw: {response.text}")
+        if token_res.status_code != 200:
+            print(f"Token Error: {token_res.text}")
             return None
+
+        data = token_res.json()
+        token = data.get("token") or data.get("data", {}).get("token")
+        
+        if not token:
+            print("Token missing in JSON response.")
+            return None
+            
+        print(f"Token Received: {token}")
+
+        # ২. M3U প্লেলিস্ট রিকোয়েস্ট
+        playlist_headers = base_headers.copy()
+        playlist_headers['Accept'] = '*/*'
+        
+        # সেশন কুকিজ ধরে রেখে এবং URL Parameter আকারে টোকেন পাস
+        m3u_url = f"{PLAYLIST_BASE_URL}?token={token}"
+        m3u_res = scraper.get(m3u_url, headers=playlist_headers, timeout=20)
+        
+        print(f"Playlist Status Code: {m3u_res.status_code}")
+        
+        if m3u_res.status_code == 200 and "#EXTM3U" in m3u_res.text:
+            return m3u_res.text
+            
+        # বিকল্প চেষ্টা: সরাসরি JSON Channel List থাকলে
+        json_url = f"https://api.hridoytvheart.workers.dev/channels?token={token}"
+        alt_res = scraper.get(json_url, headers=base_headers, timeout=15)
+        if alt_res.status_code == 200:
+            return alt_res.json()
+
+        print(f"Playlist Fetch Error: {m3u_res.text[:200]}")
+        return None
+
     except Exception as e:
-        print(f"Error fetching playlist: {e}")
+        print(f"Scraper Exception: {e}")
         return None
 
 def parse_m3u(m3u_content):
     channels = []
+    
+    # JSON ফরম্যাট সাপোর্ট
+    if isinstance(m3u_content, list):
+        for item in m3u_content:
+            channels.append({
+                "name": item.get("name") or item.get("title") or "Unknown Channel",
+                "logo": item.get("logo") or item.get("image") or "",
+                "url": item.get("link") or item.get("url") or ""
+            })
+        return channels
+
+    # সাধারণ M3U ফরম্যাট
     lines = m3u_content.strip().split("\n")
     current_channel = {}
 
@@ -109,27 +117,14 @@ def save_m3u(channels, output_file="playlist.m3u"):
     print(f"Successfully generated {output_file} with {len(channels)} channels.")
 
 if __name__ == "__main__":
-    scraper = cloudscraper.create_scraper(
-        browser={
-            'browser': 'chrome',
-            'platform': 'windows',
-            'desktop': True
-        }
-    )
-    
-    token = get_valid_token(scraper)
-    if token:
-        m3u_data = fetch_m3u_playlist(token, scraper)
-        if m3u_data:
-            channels = parse_m3u(m3u_data)
-            if channels:
-                save_m3u(channels, "playlist.m3u")
-            else:
-                print("No channels parsed.")
-                sys.exit(1)
+    content = run_scraper()
+    if content:
+        channels = parse_m3u(content)
+        if channels:
+            save_m3u(channels, "playlist.m3u")
         else:
-            print("Failed to get playlist data.")
+            print("No channels extracted.")
             sys.exit(1)
     else:
-        print("Failed to get token.")
+        print("Scraping failed.")
         sys.exit(1)
