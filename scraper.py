@@ -5,22 +5,15 @@ import cloudscraper
 TOKEN_URL = "https://api.hridoytvheart.workers.dev/get-token"
 PLAYLIST_BASE_URL = "https://api.hridoytvheart.workers.dev/master.m3u"
 
-def get_valid_token():
-    # Cloudflare Anti-bot Bypass করার জন্য Scraper ইনিশিয়লাইজ করা
-    scraper = cloudscraper.create_scraper(
-        browser={
-            'browser': 'chrome',
-            'platform': 'windows',
-            'desktop': True
-        }
-    )
-    
-    # সঠিক Origin ও Referer সেট করা হয়েছে
+def get_valid_token(scraper):
     headers = {
         'Accept': 'application/json, text/plain, */*',
-        'Accept-Language': 'en-US,en;q=0.9,bn;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.9',
         'Origin': 'https://hridoytv.pages.dev',
         'Referer': 'https://hridoytv.pages.dev/',
+        'Sec-Ch-Ua': '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+        'Sec-Ch-Ua-Mobile': '?0',
+        'Sec-Ch-Ua-Platform': '"Windows"',
         'Sec-Fetch-Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'cross-site',
@@ -37,32 +30,39 @@ def get_valid_token():
             token = data.get("token") or data.get("data", {}).get("token") or data.get("result", {}).get("token")
             if token:
                 print(f"Fetched Token Successfully: {token}")
-                return token, scraper
+                return token
             else:
                 print("Token key missing in JSON response.")
-        return None, scraper
+        return None
     except Exception as e:
         print(f"Error fetching token: {e}")
-        return None, scraper
+        return None
 
 def fetch_m3u_playlist(token, scraper):
     url = f"{PLAYLIST_BASE_URL}?token={token}"
+    
+    # M3U ফাইলের জন্য প্রয়োজনীয় হেডার্স
     headers = {
         'Accept': '*/*',
+        'Accept-Language': 'en-US,en;q=0.9',
         'Origin': 'https://hridoytv.pages.dev',
         'Referer': 'https://hridoytv.pages.dev/',
+        'Sec-Ch-Ua': '"Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"',
+        'Sec-Ch-Ua-Mobile': '?0',
+        'Sec-Ch-Ua-Platform': '"Windows"',
         'Sec-Fetch-Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'cross-site',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
     }
+    
     try:
         response = scraper.get(url, headers=headers, timeout=20)
         print(f"Playlist API Status Code: {response.status_code}")
         if response.status_code == 200 and response.text.strip():
             return response.text
         else:
-            print("Playlist content is empty or status code not 200.")
+            print(f"Playlist Error Raw: {response.text}")
             return None
     except Exception as e:
         print(f"Error fetching playlist: {e}")
@@ -100,7 +100,16 @@ def save_m3u(channels, output_file="playlist.m3u"):
     print(f"Successfully generated {output_file} with {len(channels)} channels.")
 
 if __name__ == "__main__":
-    token, scraper = get_valid_token()
+    # সেশন ও কুকি ধরে রাখার জন্য একই scraper ইনস্ট্যান্স ব্যবহার
+    scraper = cloudscraper.create_scraper(
+        browser={
+            'browser': 'chrome',
+            'platform': 'windows',
+            'desktop': True
+        }
+    )
+    
+    token = get_valid_token(scraper)
     if token:
         m3u_data = fetch_m3u_playlist(token, scraper)
         if m3u_data:
@@ -114,5 +123,5 @@ if __name__ == "__main__":
             print("Failed to get playlist data.")
             sys.exit(1)
     else:
-        print("Failed to get token (403 or invalid response).")
+        print("Failed to get token.")
         sys.exit(1)
