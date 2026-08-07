@@ -2,8 +2,8 @@ name: Auto Scrape M3U Playlist
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # প্রতি ৬ ঘণ্টা পর পর অটোমেটিক চলবে
-  workflow_dispatch:      # ম্যানুয়ালি রান করার জন্য button দিবে
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   build-and-scrape:
@@ -21,7 +21,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests cloudscraper
+        pip install requests playwright
+        playwright install chromium --with-deps
 
     - name: Run Scraper Script
       run: python scraper.py
