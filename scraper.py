@@ -8,7 +8,6 @@ def run_debug_and_scrape():
     found_channels = []
 
     with sync_playwright() as p:
-        # Client Spoofing সহ ব্রাউজার চালু
         browser = p.chromium.launch(
             headless=True,
             args=['--no-sandbox', '--disable-setuid-sandbox']
@@ -19,70 +18,54 @@ def run_debug_and_scrape():
         )
         page = context.new_page()
 
-        # নেটওয়ার্ক ইন্টারসেপ্টর: সাইটটি যেসব নেটওয়ার্ক রিকোয়েস্ট পাঠায় তা দেখা
-        def log_and_intercept(response):
-            nonlocal found_channels
-            url = response.url
-            
-            # শুধুমাত্র ইমেজ বা স্টাইলশ্রিট বাদ দিয়ে ব্যাকএন্ড কলগুলো চেক করা
-            if not any(ext in url for ext in [".png", ".jpg", ".jpeg", ".css", ".svg", ".ico"]):
-                print(f"Network Call: {url} [{response.status}]")
-                
-            try:
-                # যদি রেসপন্সটি জেসন অথবা m3u টেক্সট হয়
-                content_type = response.headers.get("content-type", "")
-                if "json" in content_type:
-                    data = response.json()
-                    # যদি ডাটার ভেতরে কোন লিস্ট বা চ্যানেলের তালিকা পাওয়া যায়
-                    raw_items = []
-                    if isinstance(data, list):
-                        raw_items = data
-                    elif isinstance(data, dict):
-                        raw_items = data.get("channels") or data.get("data") or data.get("result") or []
-                    
-                    if isinstance(raw_items, list) and len(raw_items) > 0:
-                        for item in raw_items:
-                            if isinstance(item, dict):
-                                name = item.get("name") or item.get("title") or item.get("channel_name")
-                                logo = item.get("logo") or item.get("icon") or item.get("image") or ""
-                                url_val = item.get("url") or item.get("stream") or item.get("link") or item.get("file") or ""
-                                if name and url_val and not url_val.endswith(".ts"):
-                                    found_channels.append({"name": name, "logo": logo, "url": url_val})
-            except Exception:
-                pass
-
-        page.on("response", log_and_intercept)
-
         try:
-            print("Navigating to https://hridoytv.pages.dev/ ...")
-            page.goto("https://hridoytv.pages.dev/", wait_until="domcontentloaded", timeout=60000)
-            
-            # পেজের স্ক্রিপ্টগুলো রান হওয়া এবং API কল সম্পূর্ণ করার জন্য ১০ সেকেন্ড সময় দেওয়া
-            time.sleep(10)
+            print("Navigating to target website...")
+            page.goto("https://hridoytv.pages.dev/", wait_until="networkidle", timeout=60000)
+            time.sleep(5)
 
-            # যদি নেটওয়ার্ক ইন্টারসেপশনে না আসে, ফ্রন্টএন্ড DOM / JavaScript State থেকে ডাটা এক্সট্র্যাক্ট করা
-            if not found_channels:
-                print("Checking page HTML & DOM elements...")
-                # পেজের ভেতরে তৈরি হওয়া ভিডিও সোর্স বা চ্যানেল কার্ড পার্স করা
-                cards_data = page.evaluate("""
-                    () => {
-                        let channels = [];
-                        // DOM elements check
-                        document.querySelectorAll('a, button, div[data-url], iframe').forEach(el => {
-                            let name = el.innerText || el.getAttribute('title') || el.getAttribute('alt') || '';
-                            let url = el.getAttribute('href') || el.getAttribute('data-url') || el.getAttribute('src') || '';
-                            let img = el.querySelector('img');
-                            let logo = img ? img.getAttribute('src') : '';
-                            
-                            if (url && (url.includes('.m3u8') || url.includes('stream') || url.includes('live'))) {
-                                channels.append({name: name.trim(), logo: logo, url: url});
-                            }
+            # DOM থেকে চ্যানেল তথ্য সংগ্রহ (JavaScript push ব্যবহার করা হয়েছে)
+            channels_data = page.evaluate("""
+                () => {
+                    let channels = [];
+                    
+                    // সকল চ্যানেল কার্ড, লিঙ্ক এবং আইফ্রেম স্ক্যান
+                    const elements = document.querySelectorAll('a, button, div, iframe, source, video');
+                    elements.forEach(el => {
+                        let name = el.innerText || el.getAttribute('title') || el.getAttribute('alt') || el.getAttribute('aria-label') || '';
+                        let url = el.getAttribute('href') || el.getAttribute('data-url') || el.getAttribute('src') || el.getAttribute('data-src') || '';
+                        
+                        let img = el.querySelector('img');
+                        let logo = img ? (img.getAttribute('src') || img.getAttribute('data-src') || '') : '';
+
+                        // সুন্দর ও পরিষ্কার চ্যানেল নামের ফিল্টার
+                        name = name.split('\\n')[0].strip();
+
+                        if (url && (url.includes('.m3u8') || url.includes('.mpd') || url.includes('stream') || url.includes('live')) && !url.endswith('.ts')) {
+                            channels.push({
+                                name: name || 'TV Channel',
+                                logo: logo,
+                                url: url
+                            });
+                        }
+                    });
+
+                    // বিকল্প: যদি গ্লোবাল কোনো JS Variable থাকে (যেমন: window.channels বা window.playlist)
+                    if (window.channels && Array.isArray(window.channels)) {
+                        window.channels.forEach(ch => {
+                            channels.push({
+                                name: ch.name || ch.title || 'TV Channel',
+                                logo: ch.logo || ch.image || '',
+                                url: ch.url || ch.link || ch.file || ''
+                            });
                         });
-                        return channels;
                     }
-                """)
-                if cards_data:
-                    found_channels.extend(cards_data)
+
+                    return channels;
+                }
+            """)
+
+            if channels_data:
+                found_channels.extend(channels_data)
 
             browser.close()
             return found_channels
@@ -94,12 +77,22 @@ def run_debug_and_scrape():
 
 def save_m3u(channels, output_file="playlist.m3u"):
     unique_channels = []
-    seen = set()
+    seen_urls = set()
     
     for ch in channels:
-        if ch["url"] not in seen:
-            seen.add(ch["url"])
-            unique_channels.append(ch)
+        url = ch.get("url", "")
+        name = ch.get("name", "TV Channel").strip()
+        logo = ch.get("logo", "")
+
+        # আপেক্ষিক URL কে পূর্ণাঙ্গ URL-এ রূপান্তর
+        if url.startswith("//"):
+            url = "https:" + url
+        elif url.startswith("/"):
+            url = "https://hridoytv.pages.dev" + url
+
+        if url and url not in seen_urls and not url.endswith(".ts"):
+            seen_urls.add(url)
+            unique_channels.append({"name": name, "logo": logo, "url": url})
 
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
@@ -113,5 +106,5 @@ if __name__ == "__main__":
     if channels:
         save_m3u(channels)
     else:
-        print("Failed to capture valid channels. Check network log outputs above.")
+        print("No channel elements extracted from DOM.")
         sys.exit(1)
