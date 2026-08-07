@@ -1,21 +1,20 @@
 import re
 import requests
 
-# API Endpoints
 TOKEN_URL = "https://api.hridoytvheart.workers.dev/get-token"
 PLAYLIST_BASE_URL = "https://api.hridoytvheart.workers.dev/master.m3u"
 
 def get_valid_token():
-    """টোকেন API থেকে নতুন টোকেন ফেচ করে"""
     try:
         response = requests.get(TOKEN_URL, timeout=10)
         response.raise_for_status()
         data = response.json()
+        print("API Response:", data)
         
-        # API Response অনুযায়ী টোকেন এক্সট্র্যাক্ট
-        token = data.get("token") or data.get("data", {}).get("token")
+        # টোকেন এক্সট্র্যাক্ট করা
+        token = data.get("token") or data.get("data", {}).get("token") or data.get("result", {}).get("token")
         if token:
-            print("Successfully fetched token.")
+            print("Successfully fetched token:", token)
             return token
         else:
             print("Token key not found in JSON response.")
@@ -25,7 +24,6 @@ def get_valid_token():
         return None
 
 def fetch_m3u_playlist(token):
-    """টোকেন ব্যবহার করে M3U ফাইলটি ডাউনলোড করে"""
     url = f"{PLAYLIST_BASE_URL}?token={token}"
     try:
         response = requests.get(url, timeout=15)
@@ -36,29 +34,21 @@ def fetch_m3u_playlist(token):
         return None
 
 def parse_m3u(m3u_content):
-    """M3U কন্টেন্ট পার্স করে চ্যানেলের নাম, লোগো এবং লিংক বের করে"""
     channels = []
     lines = m3u_content.strip().split("\n")
-    
     current_channel = {}
     
     for line in lines:
         line = line.strip()
         if line.startswith("#EXTINF:"):
-            # tvg-logo এক্সট্র্যাক্ট করা
             logo_match = re.search(r'tvg-logo="([^"]*)"', line)
             logo = logo_match.group(1) if logo_match else ""
             
-            # চ্যানেলের নাম এক্সট্র্যাক্ট করা (কমা-র পরের অংশ)
             name_match = line.split(",")
             name = name_match[-1].strip() if len(name_match) > 1 else "Unknown Channel"
             
-            current_channel = {
-                "name": name,
-                "logo": logo
-            }
+            current_channel = {"name": name, "logo": logo}
         elif line and not line.startswith("#"):
-            # স্ট্রিম ইউআরএল
             if current_channel:
                 current_channel["url"] = line
                 channels.append(current_channel)
@@ -67,7 +57,6 @@ def parse_m3u(m3u_content):
     return channels
 
 def generate_cleaned_m3u(channels, output_file="playlist.m3u"):
-    """পার্স করা চ্যানেলগুলোকে নতুন M3U ফাইলে সেভ করে"""
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for ch in channels:
@@ -82,3 +71,7 @@ if __name__ == "__main__":
         if m3u_data:
             channels = parse_m3u(m3u_data)
             generate_cleaned_m3u(channels, "playlist.m3u")
+        else:
+            print("Playlist content empty.")
+    else:
+        print("Failed to retrieve token.")
