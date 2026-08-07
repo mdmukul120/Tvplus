@@ -6,6 +6,7 @@ TOKEN_URL = "https://api.hridoytvheart.workers.dev/get-token"
 PLAYLIST_BASE_URL = "https://api.hridoytvheart.workers.dev/master.m3u"
 
 def get_valid_token():
+    # Cloudflare Anti-bot Bypass করার জন্য Scraper ইনিশিয়লাইজ করা
     scraper = cloudscraper.create_scraper(
         browser={
             'browser': 'chrome',
@@ -14,15 +15,15 @@ def get_valid_token():
         }
     )
     
-    # Cloudflare worker domain restrictions bypass করার জন্য সঠিক headers
+    # সঠিক Origin ও Referer সেট করা হয়েছে
     headers = {
         'Accept': 'application/json, text/plain, */*',
         'Accept-Language': 'en-US,en;q=0.9,bn;q=0.8',
-        'Origin': 'https://hridoytvheart.workers.dev',
-        'Referer': 'https://hridoytvheart.workers.dev/',
+        'Origin': 'https://hridoytv.pages.dev',
+        'Referer': 'https://hridoytv.pages.dev/',
         'Sec-Fetch-Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Site': 'same-origin',
+        'Sec-Fetch-Site': 'cross-site',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
     }
 
@@ -48,11 +49,11 @@ def fetch_m3u_playlist(token, scraper):
     url = f"{PLAYLIST_BASE_URL}?token={token}"
     headers = {
         'Accept': '*/*',
-        'Origin': 'https://hridoytvheart.workers.dev',
-        'Referer': 'https://hridoytvheart.workers.dev/',
+        'Origin': 'https://hridoytv.pages.dev',
+        'Referer': 'https://hridoytv.pages.dev/',
         'Sec-Fetch-Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Site': 'same-origin',
+        'Sec-Fetch-Site': 'cross-site',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
     }
     try:
