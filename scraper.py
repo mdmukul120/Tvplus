@@ -6,7 +6,6 @@ TOKEN_URL = "https://api.hridoytvheart.workers.dev/get-token"
 PLAYLIST_BASE_URL = "https://api.hridoytvheart.workers.dev/master.m3u"
 
 def run_scraper():
-    # Cloudflare scraper ইনিশিয়ালাইজেশন
     scraper = cloudscraper.create_scraper(
         browser={
             'browser': 'chrome',
@@ -30,64 +29,70 @@ def run_scraper():
     }
 
     try:
-        # ১. টোকেন ও সেশন কুকি সংগ্রহ
         token_res = scraper.get(TOKEN_URL, headers=base_headers, timeout=15)
         print(f"Token Status Code: {token_res.status_code}")
         
         if token_res.status_code != 200:
             print(f"Token Error: {token_res.text}")
-            return None
+            return None, None
 
         data = token_res.json()
         token = data.get("token") or data.get("data", {}).get("token")
         
         if not token:
             print("Token missing in JSON response.")
-            return None
+            return None, None
             
         print(f"Token Received: {token}")
 
-        # ২. M3U প্লেলিস্ট রিকোয়েস্ট
+        # ১. M3U প্লেলিস্ট রিকোয়েস্ট
         playlist_headers = base_headers.copy()
         playlist_headers['Accept'] = '*/*'
         
-        # সেশন কুকিজ ধরে রেখে এবং URL Parameter আকারে টোকেন পাস
         m3u_url = f"{PLAYLIST_BASE_URL}?token={token}"
         m3u_res = scraper.get(m3u_url, headers=playlist_headers, timeout=20)
         
         print(f"Playlist Status Code: {m3u_res.status_code}")
         
         if m3u_res.status_code == 200 and "#EXTM3U" in m3u_res.text:
-            return m3u_res.text
+            return m3u_res.text, token
             
-        # বিকল্প চেষ্টা: সরাসরি JSON Channel List থাকলে
+        # ২. বিকল্প JSON চ্যানেল API ট্রাই করা
         json_url = f"https://api.hridoytvheart.workers.dev/channels?token={token}"
         alt_res = scraper.get(json_url, headers=base_headers, timeout=15)
         if alt_res.status_code == 200:
-            return alt_res.json()
+            return alt_res.json(), token
 
-        print(f"Playlist Fetch Error: {m3u_res.text[:200]}")
-        return None
+        print(f"Playlist Fetch Raw Error: {m3u_res.text[:300]}")
+        return None, token
 
     except Exception as e:
         print(f"Scraper Exception: {e}")
-        return None
+        return None, None
 
-def parse_m3u(m3u_content):
+def parse_data(content, token):
     channels = []
     
     # JSON ফরম্যাট সাপোর্ট
-    if isinstance(m3u_content, list):
-        for item in m3u_content:
-            channels.append({
-                "name": item.get("name") or item.get("title") or "Unknown Channel",
-                "logo": item.get("logo") or item.get("image") or "",
-                "url": item.get("link") or item.get("url") or ""
-            })
+    if isinstance(content, list):
+        for item in content:
+            name = item.get("name") or item.get("title") or "Unknown Channel"
+            logo = item.get("logo") or item.get("image") or item.get("icon") or ""
+            # লিঙ্ক পাওয়ার জন্য সকল সম্ভাব্য কি (Key) চেক
+            url = item.get("link") or item.get("url") or item.get("stream") or item.get("file") or ""
+            
+            # যদি লিঙ্কে ডায়নামিক টোকেন বা আইডি লাগে
+            if not url and item.get("id"):
+                url = f"https://api.hridoytvheart.workers.dev/live/{item.get('id')}.m3u8?token={token}"
+            elif url and "token=" not in url and token:
+                url = f"{url}?token={token}" if "?" not in url else f"{url}&token={token}"
+                
+            if url:
+                channels.append({"name": name, "logo": logo, "url": url})
         return channels
 
-    # সাধারণ M3U ফরম্যাট
-    lines = m3u_content.strip().split("\n")
+    # M3U টেক্সট পার্সিং
+    lines = content.strip().split("\n")
     current_channel = {}
 
     for line in lines:
@@ -102,7 +107,11 @@ def parse_m3u(m3u_content):
             current_channel = {"name": name, "logo": logo}
         elif line and not line.startswith("#"):
             if current_channel:
-                current_channel["url"] = line
+                url = line
+                # টোকেন অ্যাপেন্ড করা নিশ্চিত করা
+                if token and "token=" not in url:
+                    url = f"{url}?token={token}" if "?" not in url else f"{url}&token={token}"
+                current_channel["url"] = url
                 channels.append(current_channel)
                 current_channel = {}
 
@@ -114,16 +123,16 @@ def save_m3u(channels, output_file="playlist.m3u"):
         for ch in channels:
             f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}",{ch["name"]}\n')
             f.write(f'{ch["url"]}\n')
-    print(f"Successfully generated {output_file} with {len(channels)} channels.")
+    print(f"Successfully generated {output_file} with {len(channels)} valid channel links.")
 
 if __name__ == "__main__":
-    content = run_scraper()
+    content, token = run_scraper()
     if content:
-        channels = parse_m3u(content)
+        channels = parse_data(content, token)
         if channels:
             save_m3u(channels, "playlist.m3u")
         else:
-            print("No channels extracted.")
+            print("No valid channel links found.")
             sys.exit(1)
     else:
         print("Scraping failed.")
