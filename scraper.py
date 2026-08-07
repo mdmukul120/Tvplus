@@ -23,33 +23,31 @@ def run_debug_and_scrape():
             page.goto("https://hridoytv.pages.dev/", wait_until="networkidle", timeout=60000)
             time.sleep(5)
 
-            # DOM থেকে চ্যানেল তথ্য সংগ্রহ (JavaScript push ব্যবহার করা হয়েছে)
+            # JavaScript Context Evaluator
             channels_data = page.evaluate("""
                 () => {
                     let channels = [];
                     
-                    // সকল চ্যানেল কার্ড, লিঙ্ক এবং আইফ্রেম স্ক্যান
                     const elements = document.querySelectorAll('a, button, div, iframe, source, video');
                     elements.forEach(el => {
-                        let name = el.innerText || el.getAttribute('title') || el.getAttribute('alt') || el.getAttribute('aria-label') || '';
+                        let rawName = el.innerText || el.getAttribute('title') || el.getAttribute('alt') || el.getAttribute('aria-label') || '';
                         let url = el.getAttribute('href') || el.getAttribute('data-url') || el.getAttribute('src') || el.getAttribute('data-src') || '';
                         
                         let img = el.querySelector('img');
                         let logo = img ? (img.getAttribute('src') || img.getAttribute('data-src') || '') : '';
 
-                        // সুন্দর ও পরিষ্কার চ্যানেল নামের ফিল্টার
-                        name = name.split('\\n')[0].strip();
+                        // JS trim() ব্যবহার করা হয়েছে
+                        let cleanName = rawName.split('\\n')[0].trim();
 
-                        if (url && (url.includes('.m3u8') || url.includes('.mpd') || url.includes('stream') || url.includes('live')) && !url.endswith('.ts')) {
+                        if (url && (url.includes('.m3u8') || url.includes('.mpd') || url.includes('stream') || url.includes('live')) && !url.endsWith('.ts')) {
                             channels.push({
-                                name: name || 'TV Channel',
+                                name: cleanName || 'TV Channel',
                                 logo: logo,
                                 url: url
                             });
                         }
                     });
 
-                    // বিকল্প: যদি গ্লোবাল কোনো JS Variable থাকে (যেমন: window.channels বা window.playlist)
                     if (window.channels && Array.isArray(window.channels)) {
                         window.channels.forEach(ch => {
                             channels.push({
@@ -84,7 +82,6 @@ def save_m3u(channels, output_file="playlist.m3u"):
         name = ch.get("name", "TV Channel").strip()
         logo = ch.get("logo", "")
 
-        # আপেক্ষিক URL কে পূর্ণাঙ্গ URL-এ রূপান্তর
         if url.startswith("//"):
             url = "https:" + url
         elif url.startswith("/"):
