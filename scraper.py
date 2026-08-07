@@ -1,5 +1,6 @@
 import re
 import sys
+import urllib.parse
 import cloudscraper
 
 TOKEN_URL = "https://api.hridoytvheart.workers.dev/get-token"
@@ -39,11 +40,11 @@ def get_valid_token(scraper):
         return None
 
 def fetch_m3u_playlist(token, scraper):
-    url = f"{PLAYLIST_BASE_URL}?token={token}"
+    # params দিয়ে পাঠালে requests/cloudscraper অটোমেটিক URL Encode করে দেয়
+    params = {'token': token}
     
-    # M3U ফাইলের জন্য প্রয়োজনীয় হেডার্স
     headers = {
-        'Accept': '*/*',
+        'Accept': 'text/plain, */*; q=0.01',
         'Accept-Language': 'en-US,en;q=0.9',
         'Origin': 'https://hridoytv.pages.dev',
         'Referer': 'https://hridoytv.pages.dev/',
@@ -57,9 +58,17 @@ def fetch_m3u_playlist(token, scraper):
     }
     
     try:
-        response = scraper.get(url, headers=headers, timeout=20)
+        response = scraper.get(PLAYLIST_BASE_URL, params=params, headers=headers, timeout=20)
         print(f"Playlist API Status Code: {response.status_code}")
-        if response.status_code == 200 and response.text.strip():
+        
+        # যদি params কাজ না করে, URL Encode করে সরাসরি ট্রাই করা
+        if response.status_code != 200 or "Invalid" in response.text:
+            encoded_token = urllib.parse.quote(token, safe='')
+            direct_url = f"{PLAYLIST_BASE_URL}?token={encoded_token}"
+            response = scraper.get(direct_url, headers=headers, timeout=20)
+            print(f"Retry Playlist API Status Code: {response.status_code}")
+
+        if response.status_code == 200 and not response.text.startswith("{"):
             return response.text
         else:
             print(f"Playlist Error Raw: {response.text}")
@@ -100,7 +109,6 @@ def save_m3u(channels, output_file="playlist.m3u"):
     print(f"Successfully generated {output_file} with {len(channels)} channels.")
 
 if __name__ == "__main__":
-    # সেশন ও কুকি ধরে রাখার জন্য একই scraper ইনস্ট্যান্স ব্যবহার
     scraper = cloudscraper.create_scraper(
         browser={
             'browser': 'chrome',
