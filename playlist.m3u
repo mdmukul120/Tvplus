@@ -2,128 +2,130 @@
 #EXTINF:-1 tvg-logo="https://i.ibb.co/7d3zw9xG/995c13c59b1d.jpg",HridoyTV
 https://hridoytvx.pages.dev/HridoyTV%20video%20new/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/ncYJ6Zd4/Hridoy-TV-sports.webp",HridoyTV Sports
-https://sports-play.hridoytv-mirror.workers.dev/proxy?url=https%3A%2F%2Foz2.bhalocast.com%3A7060%2Fhls%2Fastrocric.m3u8%3Fmd5%3DR7D0NwnyEJn3Ssgve4kbKA%26expires%3D1786799906%26ch%3Dastrocric%26s%3D6876bc54471cabd099ad4538cb121bb4&expire=48426875
+https://sports-play.hridoytv-mirror.workers.dev/proxy?url=https%3A%2F%2Fdz4.bhalocast.com%3A7060%2Fhls%2Fastrocric.m3u8%3Fmd5%3DNihwaJbpmCOuhaHwfYu3zQ%26expires%3D1786821501%26ch%3Dastrocric%26s%3D54548d9d0cf3846e311db8add2e4caac&expire=48426875
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/X7XkjfpT/Resized-Image-2026-07-20-20-31-03-8994-1.webp",T sports
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/tsports6.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/SKNmzxCN/In-Shot-20260720-205147434.jpg",PTV sports
-https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn9.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=HAuwIF4PfpH6ZWj8njSxvw&expires=1786801819
+https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn9.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=ZOrnqPpAnJBcpikV9Ows5Q&expires=1786823414
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/T35zN6bL/A-sports-Hridoy-TV.jpg",A sports
-https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn1.zohanayaan.com:1686/hls/asportshd.m3u8?md5=T82uhzLA6Nwq4_Id_3EBlg&expires=1786801820
+https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn5.zohanayaan.com:1686/hls/asportshd.m3u8?md5=N60PK2xvxiTwM6sFdCqnYA&expires=1786823415
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/xdBGKj6h/In-Shot-20260809-032438799.jpg",06Willow SportsNew
-https://sports-play.hridoytv-mirror.workers.dev/proxy?url=https%3A%2F%2Foz2.bhalocast.com%3A7060%2Fhls%2Fwillowbuzz.m3u8%3Fmd5%3Dxo2aCWieowNlMfjilF-DRw%26expires%3D1786799760%26ch%3Dwillowbuzz%26s%3D871da2932022299fcc706b2afa3cfc24&expire=48426875
+https://sports-play.hridoytv-mirror.workers.dev/proxy?url=https%3A%2F%2Foz2.bhalocast.com%3A7060%2Fhls%2Fwillowbuzz.m3u8%3Fmd5%3DvYOFRdyRSeMdLhcgWRjvgw%26expires%3D1786821353%26ch%3Dwillowbuzz%26s%3D97b7f68848e67ed4fd3180a17732a248&expire=48426875
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/KYC7nc0V/In-Shot-20260809-032306616.jpg",Willow
-https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn10.zohanayaan.com:1686/hls/willowusa.m3u8?md5=2YJeymRI6yzZVslnY-FU_g&expires=1786801819
+https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn4.zohanayaan.com:1686/hls/willowusa.m3u8?md5=70ZlVlRY7Jpo60oQaCQP8Q&expires=1786823414
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/ZqXPrYwQ/In-Shot-20260809-032524015.jpg",08Willow HDNew
-https://sports-play.hridoytv-mirror.workers.dev/proxy?url=https%3A%2F%2Fdz4.bhalocast.com%3A7060%2Fhls%2Fhdwillos5.m3u8%3Fmd5%3D7-7U_KQB-nKahGhlHly7Ww%26expires%3D1786799793%26ch%3Dhdwillos5%26s%3Dc6944d39ac44cb73b9462eedae5053de&expire=48426875
+https://sports-play.hridoytv-mirror.workers.dev/proxy?url=https%3A%2F%2Foz2.bhalocast.com%3A7060%2Fhls%2Fhdwillos5.m3u8%3Fmd5%3Drq3ks_7N6oC-O5QnEMTBqg%26expires%3D1786821386%26ch%3Dhdwillos5%26s%3D9f2ea367dffe62d1d2619775c547a526&expire=48426875
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/MGg0yZ9F/In-Shot-20260809-032535574.jpg",09Willow 2New
-https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn7.zohanayaan.com:1686/hls/willowextra.m3u8?md5=NoC5DZ-JVrlqHU-UxTH8vg&expires=1786801819
+https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn9.zohanayaan.com:1686/hls/willowextra.m3u8?md5=mxCOFPeGrUXrUkgcNPImfQ&expires=1786823414
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/kgWfHD7N/Hridoy-TV-pro-(56).webp",Star Sports 1 Hindi
-https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn5.zohanayaan.com:1686/hls/starhindi.m3u8?md5=M1mmQC4MJHPUXP6XdACl0A&expires=1786801819
+https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn8.zohanayaan.com:1686/hls/starhindi.m3u8?md5=PHLUseIRnXU4LM_nHo1ksg&expires=1786823414
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/SKqDbqKD/Hridoy-TV-pro-(63).webp",11Star sports 1New
-https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn7.zohanayaan.com:1686/hls/star1in.m3u8?md5=MtuHUphl2XV9ZaQv-H8XHg&expires=1786801818
+https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn1.zohanayaan.com:1686/hls/star1in.m3u8?md5=ph2ElYtn5fkMVksBFf7gug&expires=1786823414
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/SKqDbqKf/Hridoy-TV-pro-(61).webp",12Star sports 2New
-https://sports-play.hridoytv-mirror.workers.dev/proxy?url=https%3A%2F%2Fdz4.bhalocast.com%3A7060%2Fhls%2Fstar2cl5.m3u8%3Fmd5%3DPZtTq733rVsXI6PXnfR7cQ%26expires%3D1786799841%26ch%3Dstar2cl5%26s%3D47017c710f420305b62cc67fde8b0793&expire=48426875
+https://sports-play.hridoytv-mirror.workers.dev/proxy?url=https%3A%2F%2Fdz4.bhalocast.com%3A7060%2Fhls%2Fstar2cl5.m3u8%3Fmd5%3DIE6ZYMJDJRz94gjPk5-Q_Q%26expires%3D1786821435%26ch%3Dstar2cl5%26s%3Dd04740920173aa50c05c3c1c4218b529&expire=48426875
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/cJZXGZJh/Hridoy-TV-pro-(62).webp",13Star sports 1 selectNew
 https://rz.hridoytv-master.workers.dev/proxy?url=https%3A%2F%2Fedge2.roarzone.net%3A8447%2Froarzone%2Fedge7%2Fspl-1%2Findex.m3u8%3Ftoken%3Dd82cafee977f98fa6e25e89e5798e6b4734cbda7-05fd4d35954f27f9cca3d4c7edf1b133-1786784041-1786773241
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/rm1v8S4P/In-Shot-20260813-015624865.jpg",14Star sports select 2New
 https://wpu.hridoytv-direct.workers.dev/starsportsselect.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Tw9VTT5S/Resized-Image-2026-06-25-10-05-05-0235-1.webp",Ten cricket
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/ten_cricket/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/htwShsL8/ten-sports-Hridoy-TV.jpg",Ten Sports
+http://66.102.126.10:8000/play/a018/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mZKzdycQ/Resized-Image-2026-08-13-11-47-30-5275-2.webp",Unite8 Sports 1 HD
 https://rz.hridoytv-master.workers.dev/proxy?url=https%3A%2F%2Fedge2.roarzone.net%3A8447%2Froarzone%2Fedge1%2F5%2Findex.m3u8%3Ftoken%3Ddad8c23227806559547690efc9798a80ec549449-4932e7c196b65274dbc5f9cfb36363ac-1786784041-1786773241
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/HWFcS9Jb/Resized-Image-2026-08-13-11-47-29-0577-1.webp",17Unite8 Sports 2 HDNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/HWFcS9Jb/Resized-Image-2026-08-13-11-47-29-0577-1.webp",18Unite8 Sports 2 HDNew
 https://rz.hridoytv-master.workers.dev/proxy?url=https%3A%2F%2Fedge2.roarzone.net%3A8447%2Froarzone%2Fedge1%2F6%2Findex.m3u8%3Ftoken%3D7ff5a6991e48e400d9ff9e8c0e13cfcccd5680a2-f20ba471182e6d09aed7f987baa065fa-1786784041-1786773241
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/qqLpPQtJ/hridoytvgate-(17).webp",Fox Cricket
-https://sports-play.hridoytv-mirror.workers.dev/proxy?url=https%3A%2F%2Fdz4.bhalocast.com%3A7060%2Fhls%2Fcf0sp1.m3u8%3Fmd5%3DDvsXeYqgXGbI0p7CRrFLAA%26expires%3D1786799922%26ch%3Dcf0sp1%26s%3Dc7b0d68a4cc45451828287eb581ff84e&expire=48426875
+https://sports-play.hridoytv-mirror.workers.dev/proxy?url=https%3A%2F%2Foz2.bhalocast.com%3A7060%2Fhls%2Fcf0sp1.m3u8%3Fmd5%3D5WJ9pdXQejNtrCxlcbQdWQ%26expires%3D1786821517%26ch%3Dcf0sp1%26s%3De951fc602ee75e5e58a7e67ebc42c10e&expire=48426875
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/L5crRk13/Resized-Image-2026-06-25-09-53-34-9141-4.webp",Sony Ten 1
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/sony_sports_1_hd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Gprqnrps/Hridoy-TV-pro-(59).webp",20Sony Ten 2New
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Gprqnrps/Hridoy-TV-pro-(59).webp",21Sony Ten 2New
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/sony_sports_2_hd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/jSyZ1CRC/Hridoy-TV-pro-(53).webp",21Sony ten 3 HindiNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/jSyZ1CRC/Hridoy-TV-pro-(53).webp",22Sony ten 3 HindiNew
 https://rz.hridoytv-master.workers.dev/proxy?url=https%3A%2F%2Fedge2.roarzone.net%3A8447%2Froarzone%2Fedge7%2Fsony-ten-3%2Findex.m3u8%3Ftoken%3D059aa607811dcafed536e7cbc65dc2d53af65ed6-475ce29d03df6eb05f7f05e316874123-1786784041-1786773241
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/zvs95wgw/Resized-Image-2026-06-25-09-53-34-0716-5.webp",22Sony Ten 5
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/zvs95wgw/Resized-Image-2026-06-25-09-53-34-0716-5.webp",23Sony Ten 5
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/sony_sports_5_hd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/7LJFS1wC/Resized-Image-2026-07-24-20-10-48-7868-4.webp",Sky sports
-https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn1.zohanayaan.com:1686/hls/skysme.m3u8?md5=wkg5CS5X_BMaveoDG6WEzA&expires=1786801820
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/XvBR9K4B/Resized-Image-2026-07-24-20-10-46-5697-2.webp",24Sky sports cricketNew
-https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn2.zohanayaan.com:1686/hls/skyscric.m3u8?md5=1Y-uOm3PrW62h_QtT48Wtg&expires=1786801820
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/1zVkD0s8/Resized-Image-2026-07-24-20-10-45-8462-1.webp",25Sky sports f1New
-https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn4.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=3PSM9WYsEYTCPtOw7JzX6A&expires=1786801823
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Dz491Qnm/Resized-Image-2026-07-24-20-10-47-9307-3.webp",26ESPNNew
-https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn1.zohanayaan.com:1686/hls/espn2.m3u8?md5=ee23PVzqGGa2nSAHl3AlTA&expires=1786801824
+https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn5.zohanayaan.com:1686/hls/skysme.m3u8?md5=QNQilq0Ki8L-6P6L5qzq-w&expires=1786823415
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/XvBR9K4B/Resized-Image-2026-07-24-20-10-46-5697-2.webp",25Sky sports cricketNew
+https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn8.zohanayaan.com:1686/hls/skyscric.m3u8?md5=NzQLm9wv_qk_pt77fJMGZg&expires=1786823415
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/1zVkD0s8/Resized-Image-2026-07-24-20-10-45-8462-1.webp",26Sky sports f1New
+https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn9.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=glD3AEb4EQKgg6Xs8eD4ew&expires=1786823417
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Dz491Qnm/Resized-Image-2026-07-24-20-10-47-9307-3.webp",27ESPNNew
+https://cz-pli2.hridoytv-route.workers.dev/proxy/https://cdn4.zohanayaan.com:1686/hls/espn2.m3u8?md5=LtRI9QtlKeRnGi8Xuuut7Q&expires=1786823418
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/br7K80tH/Resized-Image-2026-06-25-09-53-33-7257-3.webp",Eurosport
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/euro_sports_hd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/PJjC98PR/Resized-Image-2026-07-20-21-35-17-1030-1.webp",28Bein Sports HD
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/PJjC98PR/Resized-Image-2026-07-20-21-35-17-1030-1.webp",29Bein Sports HD
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/beinsportshtv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/KzpNTMDn/Hridoy-TV-pro-(86).webp",29Red Bull TVNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/KzpNTMDn/Hridoy-TV-pro-(86).webp",30Red Bull TVNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/redbultv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/JnYqXk5v/Hridoy-TV-pro-(95).webp",30Xtreme SportsNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/JnYqXk5v/Hridoy-TV-pro-(95).webp",31Xtreme SportsNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/xtremesports.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/VNR4YTry/Hridoy-TV-pro-(70).webp",31Sports TV 5New
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VNR4YTry/Hridoy-TV-pro-(70).webp",32Sports TV 5New
 http://94.130.32.19:8080/sporttv5/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/LXQTP13C/Hridoy-TV-pro-(91).webp",32A SporNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/LXQTP13C/Hridoy-TV-pro-(91).webp",33A SporNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/aspor.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/4d25c9Q8/Hridoy-TV-pro-(90).webp",33DD SportsNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/4d25c9Q8/Hridoy-TV-pro-(90).webp",34DD SportsNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/ddsports.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/V6ZRtCWD/Hridoy-TV-pro-(89).webp",34Shooting SportsNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/V6ZRtCWD/Hridoy-TV-pro-(89).webp",35Shooting SportsNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/shootingsports.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mDgjhwCd/Hridoy-TV-pro-(83).webp",35Sports FishingNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mDgjhwCd/Hridoy-TV-pro-(83).webp",36Sports FishingNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/sportsfishing.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/vTs4k6c0/Resized-Image-2026-07-20-21-35-18-5772-2.webp",36Telemundo
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/vTs4k6c0/Resized-Image-2026-07-20-21-35-18-5772-2.webp",37Telemundo
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/telemundo.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Vk3ng2sR/In-Shot-20260720-212008094.jpg",37Tudn
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Vk3ng2sR/In-Shot-20260720-212008094.jpg",38Tudn
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/tudn.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/NFVp3Hyj/Hridoy-TV-pro-(3).webp",38Sports RangeNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/NFVp3Hyj/Hridoy-TV-pro-(3).webp",39Sports RangeNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/sportsrange.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/DZpgGXPY/Hridoy-TV-pro-(92).webp",39Sports FirstNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/DZpgGXPY/Hridoy-TV-pro-(92).webp",40Sports FirstNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/sportsfirst.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Mp1dLXzb/Hridoy-TV-pro-(57).webp",40Fight TVNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Mp1dLXzb/Hridoy-TV-pro-(57).webp",41Fight TVNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/fighttv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Tw30h9gr/Hridoy-TV-pro-(82).webp",41FloracingNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Tw30h9gr/Hridoy-TV-pro-(82).webp",42FloracingNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/floracing.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Kz8f4NBJ/Hridoy-TV-pro-(84).webp",42Goal TVNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Kz8f4NBJ/Hridoy-TV-pro-(84).webp",43Goal TVNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/goaltv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJVTnt9T/Hridoy-TV-pro-(88).webp",43Speed sports 1New
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bJVTnt9T/Hridoy-TV-pro-(88).webp",44Speed sports 1New
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/speedsports.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sXHcWh44/Hridoy-TV-pro-(87).webp",44Trace SportsNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/sXHcWh44/Hridoy-TV-pro-(87).webp",45Trace SportsNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/tracesports.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Rh8XkH30/Hridoy-TV-pro-(1).webp",45Ftf sportsNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Rh8XkH30/Hridoy-TV-pro-(1).webp",46Ftf sportsNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/ftfsports.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/fyFBG93L/Hridoy-TV-pro-(2).webp",46Sports GridNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/fyFBG93L/Hridoy-TV-pro-(2).webp",47Sports GridNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/sportsgird.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/85z4sHMZ/Hridoy-TV-pro-(85).webp",47Motor VisionNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/85z4sHMZ/Hridoy-TV-pro-(85).webp",48Motor VisionNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/motorvission.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/fTkfzcV4/Resized-Image-2026-07-20-20-31-04-6031-2.webp",Somoy TV
-https://ag.hridoytvx.workers.dev/live/llQ1TDvqb0fGAps8wQ4zDi3yVVjPOg2CIkEO3ZWL2RqCeHi9u4TxKEBBN5DHwWa85Xx1jovM86uk7_rFGcI54ryxQgtIWm-ASweeazmsatvNcE8Z9NEKmCbWovkf6HsKoCKNMRXvNdlWscD2f25B9j3v5ahn4mRFdyVrZaAuWZjthzwm3tMsniqptanYSJ6GucU16T5eiZntVwK8BQ2q-iRtgOfrrzawFz1Gqd0W8i7hXcUx9glinKw3g-86Ji5jhHdsUcz3tUzO-1nXIu8Wn5W65yfgsYaBweKM5CLPficnZZPV8aoDS1CfDd98OUmkfGwHPfDpn-xZqhXREk1rb2NnTnmkTF4pYw6fNLQEuN5b1NZomjZcX1L6BXqjzSlvrfz60ezD2q_btSIox_cO-0asq54GggK-EehWSjil4c94wjj9vl63A2Ye3Lp7wlEZte72yFPW1n8AyeLDn_smFkSpg88yTw.m3u8
+https://ag.hridoytvx.workers.dev/live/jO7YI5ZFPuHfXpX38yCLkVTGQorydJvWxmDrF_YnZgEk-Sq5_45v8A6cDNZLtVOu4TvSeEHE-XL3svLykKuMJGIsI2_P8dJup5wfVYdwfWlnw00No03RiFwn1pSiSNB3Knce8-4GbdI6xaw_nMQ7wGY_X9SnZEV7U5MUAUzPLwjHSg6SFPnzwZjhHEwwpxHpdxKS3o1rQApi_IQ1MEUMoPsLaR80jIs2fgmH8COHnuZ3gFcYIQ86OVLs-Yr8V8nOZUDCNkJjFbxI4lJnLIQlIlf94X_j0bfCi9uGCEgNaJUx1mVtkOxl6w4ptTDEWQFxkkbsrp66Yf9K6VENIWZexB40zGAyHcyTG1dGIfk4eJL-yaTkqokRI9B_CWHYUgBQIWyjmQSxSYxVve-rXvOJyPu6HQBRDLA7bGyNHU9rG_cx4wYAAXJ7B48FdsPFA5chnbMq0zRo5uTQbjJ7hpN1IV4V9CiuXQ.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BVnjzXXx/35c72fd64c70.jpg",Star News
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/starnews.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q37tKmpT/6a61c96b61bd.jpg",Jamuna TV
-https://ag.hridoytvx.workers.dev/live/yQYFjcdmWkOAQO4iLovwu-szeQePGHbWmwdW4ut7waPcbGzeuZrYt86lu1cJqoYgB_3hbqkcHG2vWGdYXxyb6ARkLGek8EzXzMkjBTIb958-43Ao3DF8YWUnwxBA_PoF7XrWqIsilmr8xrAaHcckfg8xqgaXnE987yeG0I_isEcwS5wk21Ts64KxBNQ9IV94UX8E9SS9MSKnzywLJvEiXLabieFqnNQ0vv-2y2075FSUm72Glrd9qeiWoPyWYHQzqv_maTUqULQVz7Ldjfdvs-9_1yfxMxD__z0PfYRHAoGtAgd3LyTE1pr1vL8h1RDz87wynVMqtKgyq8j_EPqLxwuuKDASD_7ow4TMwPUQlpjKsXfoqX7Behfv-D7aAq5gzlMKuoZCUlNXvJCSmpHg_bkheDLqLZje4HOvHuc6KTYkLCVcOC-hkkqVbWXXy4ZfKan674VX5z-FahmMfBdlUwLWgGHcUw.m3u8
+https://ag.hridoytvx.workers.dev/live/vjq2nR0t66NpZs7WAtUBsfT9clSb-3ZJyKP_MVydSsF9LjRZgVMoQ6mL3M3U0GzIUFfrLxF-OyU-ag_pLaQjEHhrLfc2IyJ5FxkxYRHaWzEVp3S44Qxt7T_2FP7tN7dlunOkzBOLkhwQ3BbljcYhoHeGTH43_-25ijKPO3_gTHyEdJ-9EUkdCzCdqxtBbeqAC_7Mi5uhLvpf_bkZue5dQ2Rmi5kHrtGCndG531zxN5pr4b8W-QPhjd8xSADjuOs2ngDD5qHbmlHFghTFL6ZpZ47h11afERqU2lM0q18ICxQkbwC3UB_s2-vm-m6ZH8obgaPe1s_gpjWN9kDKnbcN4m4i9F04byDWH20KGssPLob0HUlq6rXejVOOnqUOGIN0l7k5e9aLdFKLSvhbR2KbN7AToHkaLOXv-pzINZ7NozXlVrhcHWKWpzLe5bVttKV1Bqcv15nfjGIPqBFNfbOap6e1osZhHQ.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gLTsCPdq/75f60097d1d1.jpg",Ekattor TV
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/ekattor_tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bM8X3YZm/20eb4ced2615.jpg",Independent TV
-https://ag.hridoytvx.workers.dev/live/u1keGC4mXjL2v72VeCWQ9CxGnGZSEr5zOdpjCD15jG6CnpXaeCJSQpmDTcyzffEPw8iMudkM4SDTa0rBfNaXQLiAKVh3u78dzacZTgoGKRPhUqcHlbOZ7OkCNb-0_9mQx80jowt2dRlffUEng9JbaIKB7fjNhXFmkb9VhhZ5F__AuG5XDoJR_dQkI3wA2vNhkxhK_gwAPimeqXLInQ4sTJz7omFkAJrKO0845Hc0HXPC5KWFCGYHpOQKWkFwoqzAv0B630c37Txd7rw1z_V8kmChdihvUymVRZdFiFhV4yXIISDAtmpRT296rMGiIdvnJ7i1gSQayhktHCBwbYAKRiBl164GLQF1nnnHAKtAOltY9e00oNaqXkIaMotQbHPGIPpUHr9gKHgNMSKNGCoyBcTQIayXCXhrcZof5OrJPZDiZTr4ZOihquJDHzmS4_drpNtFOGIKt0zSdAVKOp7P4AoSsHOzqA.m3u8
+https://ag.hridoytvx.workers.dev/live/7iuqF_PugNC0wQ6Q_RmN6Rv2L6HfoVwWl0YakY1NwxpwuzCntsCOHs9fYPTquAPHiv3WFaD02pzhPAMz-AtSLNBlWqsau8Ef2zqWNVXhAY474eBArZt-nZoJ-5w9LotiroU9LKVrBJlds_w5sGnAUhqNwNOVJG3dr_tNb8zu600M8nWLG06i2iWnOyiRSnWkHdkpkJgW8GKWnCLg5NP4KXywflJM53HEsVgd3hiLll0OYMJDHNtgFNkk7NDvsiU7lo1OzG4i5TpjsedknrO0agYC1bYS7cGe323h8fa3H46zUnp_sHYOp5-A64Y7640q4KDKR7yHOOlXuSbbI4W5GjjgERllrgnfwnmp94VXSX_DRuhaexw4ICtJ5eFuoY9NzWrqpPlW0tWhAE9XpYwfjrXxg2TnQ2W6tA7itKlPIVmvyKOHaHt8buZJnPHi-F-ol5IWmCH850gdcosr9wSGZCuMk63wyw.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/tpg4njxJ/c86d54847aa6.jpg",Ekhon TV
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/ekhon_tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/VcskTLZm/f3b81cfc5c20.jpg",ATN News
-https://ag.hridoytvx.workers.dev/live/Q900gXdcSypaiijV7JqyEZFVnvMRorNpuhxblbtFpNc6ctlIs5RkXdQEU1xcYZBFcV8k6knfMdr6NaLyRMDaTPh5XIWvEQByxiOUkKN_PHK9jn5aP3UTMaYUOLtODm1fLrzOCkXR4iTQarM5FvkBynUXL5VE3HbuHp09z97p_vtJgaBDqt0ErPvZEzwo8RSesMVm69Y4hC7c7X9CJ2W1aEV1pv84emDAXEdUXoWiHxqesUE4USzhPOpdOox1RbEJvwtdKMsKWu98gNAUtZDaxQF1HZHExM6fRTSRXovTXW1Gp2zLTau3Xk4U0f0uMYW1noB_Yf1m1i7c_LjxvLAL5fE4jyaDgI2X6uSXXJXmwLYrUR4ODCIy2ANj8-07VmA3UiplUyy25e7jmICaI9bF8pxiUymf84oIEQHtey9zaoQK73nrAnKde2AZ3d0xXBp9krQ0mZMYUdmWxupy2AY91KkX0CekzA.m3u8
+https://ag.hridoytvx.workers.dev/live/FveqU78aI5uFCt8nroCMjwKZw4iI1hj3s-OtSpe0al8RzVqo97xNy-mVGWjN91gPJlxsueH4nkZD1-yuluzXPNue13VE5_4FkR4W3MS2OVp50Q4U4g6im1l7iHB9qNquWHC1C0kqliVc9YQix8d5Dyl0I4LdyVHvf4wAAQPGPHKUrYKl8HM35ZPsCNQMHfcVCg55KOXW4VFVJs7Kx6uHlpEhkqX03CvDxPXq6mbxPg99sCp4bOeKI9MfUydh9GxQJloj3WbIHeHk5-0uBCCbJ9bqojdx0DUlSjITnvw-BwPImPR5TqZpHrtp9-RET6AB8phCaqybVqHokh3uXsN6lXbLT70uWPjEL540pyFfotDlYsmhDcSnrwLHtdLXoA_cvmZiKzg6ObsLI2MafW2H_l_YW5RdfbHHTkd62OCYOG9kMx_sBDTvwAOIC7refvXc7N8GbX6gCnITPBggBAL0PdsUH8xbNg.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/tPh8mrH2/633b90e781f7.jpg",JagoNews24
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/jagonews24.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/V0nDHSjL/16715780bf44.jpg",Channel 1
-https://ag.hridoytvx.workers.dev/live/FkGNyb9J1Nab308mu_9CR_i-csmpLpWNdX7vQP1YzznxYyn7PV37dy-qr2iguKSbshoQyIGpQGf9sdHXj4QHiVFhAu5mVzPmff1PG9O5dDk9_suS1oXI0x0LCsnTnJHwrhybNHTAl9RzJaJc7cQn7AgExPJenVB1lZbmCuOGOsTK7d2t6wD6-xA83EFym8RJYKq5edSd8VlZNgQBu7iHyQA-WCCFlRgsQ1UlcEpJen2CeWHTd9n2pqTcKqRhAl8zd0VIYD532m-jbmdqXYskkge4zOpmVfj5-KAQrDE8fejAYErskYwU-Ng3tOhTAbp6URzXKIRGN75NYMYwptrAb1f2dWkwhzp0nulWNpdqyOTBeja2tnVCr5JBFsWclvnbVqjfbyAf_ybJX18bq8xd8r5lcucTJF6IyAi6o3V0l4b-UlJqRB5A3zXbZd24J3we_8MKL-DFQewqDWU2ZUdRog3mBHLb-w.m3u8
+https://ag.hridoytvx.workers.dev/live/TNM_yT80cxd7SzJRZvlg--2E7kSivXI6x8pUyWclmPY01vR7Y2wsOa3hiVKQmxx4TOLZeOq6Ty8Ury3m1XoT6pUOUTDbilM5woABiXvId3LcRed8CCKLidQXi0BBYEoQ1WX9CqCG0NXTjqR29C21H8Jn-XE7-dyXK_w4lBkwRfn8wSS-jEvVscN8Gr-Gg_HQSnnBk9NivejSXersha1ZIz-CIeoCGudTnRe56ZeqJA03c3Pp3wFZjUxO884AcQG7vuuTNT4nhvulv9A3DO-bR7KveadbihfwG2Z8k-WKLELI0hoMwiYui32uPzaHn03DHZbAR5yar1b4kWqWvymDhy8mX8JfwsIR04c_NRG4nfckG77GPSYnih5ApRFAHQipfvpo8LEJF1JZzgQv5agp6mkArhnSbAAbRJxHAjNGA66_Rc3xBMTo7f1QxF1IkOlogt9G65XaTojCR_gahzLcjnypAkbYyQ.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/b8ywL7x/bcc903b58b02.jpg",News24
-https://ag.hridoytvx.workers.dev/live/FPZdo5cKvLEEQyKHJbqotLt0nyWF6pJcMLPPaIjLHix1aLLTAuo6ezvLRnQAzrcS1FuQKjui-2V4qml3bbk2Tf4BQzw1-WjNiCnzXfcCH0E4PAogo8DgTvZCqrSH6SZal5gDZ7vszy46T7jsV22lRDAJq3xZW6E_AM-FrHal5IzbjmYVs6FWTqCgH8-TPN4fpI_a_xLhllDNyt6t7CSfupDwaSqAiw418VZcee0Ym2v056vp7gt73JhEZh-4mpKG_d3ORzrTYnUBgHiTCPzPRHIbnMguj7pLIi0AB0HEAffGPPgZZNgPFm2P8kdZ280gmO9oTzyl_JnAnCZOsbPflEOXq0CK2CCBckRP65BKixgpZTelzU8v8__8zms1FaxkVjZ1W4GwEkbfAn-FGreNKYv6bWiZH1pejeLLGQ1WGftxAFx-OBRfLRrBkzGKJhbhDTXlfWF2MPakxErAxNcIzQQyCo_Z2w.m3u8
+https://ag.hridoytvx.workers.dev/live/0CanOfGNsa2bHi5WLW6eLUJbvSr1akOdUKW3GlPn1-kaKJrtsQsfcct782GGcanXi65XA-yc_cpW591TygV06BmiEzD8Xbx76ukV8ppEJxfp5O59uGtanEec6Af5J6GDbTAAoEh4laRJlU4X4U1qdULby9MAaJ32kJv9XbB2XK7iUBHUqmrxzGxVYYRXDCefEQq2rPLKlapAIKIYFpycihm-80ZOgK2PfSAYMRU8u92g2JuOSfcQlE2a9An9Ofgi_khVsOre-6X_bGj1IAsn1_QYfHQTYHAq026-28MQh102qzG0zgqfMfX0Itr71VqOmJwGGfEtgt3vknbcGEQ8wKsVh-9nTDiLnlZatm7Ah9LlXdr6vFVAHDIw63Jsqq8JuhoRHIvnEbHZ3qzZ--oCDqBf7Aks1PK9FxgQokX9ldRgSy46xzKeVpJcvP3MwWHwdH9YA0HGJupu5yztTSnk6o4sJu0Cpg.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/LhCqzJ9Y/fffb2c26748a.jpg",DBC News
-https://ag.hridoytvx.workers.dev/live/BVSCDLbRBO5r9iBnvDCrPlgW0EAM6CJ_ABLHxjuFy1YMdOdHZYnQSTwfaGsTy9egjDFfXfDq3JWpiVG4OzBXAVikSjpjK5cwBYjWfmlM3tXIkqK1FsDQtK4ffxStXEzRwsTr3zkKbL5_ZfDkyaJoZjcJs4NGQHFlVJuTfvs3xLsFCHiZvilGBh5oPkpqA9p3fpqCB__1AIDaqx-9NNZej7pQqsuc43KxcichF-fY68WguCoAV2xIWRt_IXta4DwH2_YNcCcYKzycQxl5R8OtPM8vVM14tOlnSqZtA8jhhds8OSM3zzRpOdKHXAhcyoKbncDtq0xa8_juvHZJZ-awMFE9u_vUlTXAPxyN2ev_Yx136JUi5vDN82uSzyiFeHS6Cb5s4aaS--0XzbkrxFOaDyqBknCg-YjMDsxKCPIJ9hhhTSoFkuI9CZHONT8PWTpGKpVer1bQV7BOdkVNaoFv1LV5E45gpw.m3u8
+https://ag.hridoytvx.workers.dev/live/HsswVDnS93nERQfnjnksByj6Elrj4JuGRr9aske_Di2CzaPdWlivT2El7Y_kdIjfuZzqLmTLg9Ev1Iqh7t0GL8AwvxvgPtHnzKh2uSVIb6755my8uGAxAtnUpTL1zWm0qYCSHVyPw0WUL027vMSVtXZ4j_TBEQTagCDO03iDZ1vRPTy-sQmQMxsnXZGuPzZELsbGIrBYE4wFtALElQiPxnL76jZAgGsg2UZZgtptD9c2nvJ6qHDRN1RGODuKzkgc5V6pVW5fLkgrHo1KEbaBXr-c8ZCg6vg4KKuo5zK2CtNAjJ5YibJQmZ_aenHiXh9_fZRU5nyHpYhpbStaASuvAji3jErztP9xbS5hSV3zh_n9k5E72KUonXzw--NL67q_1ybZ6k0GUuUaxZWstavEn_qY3_PHN7CQcddsuebpv8LwX805BsxQndBynn8UXv1EjErb3g_qE4rVYbZmQ35yxSLXv76s3Q.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/8LKZPTzC/4b70d611f5b6.jpg",Channel 24
-https://ag.hridoytvx.workers.dev/live/Zv-AmbWTTYCtXLMuVXyP0E6QO81qtGr5FwYBi3rmuzSHeW5rf9Ntb8c1N-e-kGWJpH0lJj-40v6poN_DjgfplEzxvmrSZU1Fhq1us-kt12yjlyhEISm7dGjNzyn9wvBWzc5KIMsxEPCjLwM3YayZpy2IJ0S9s6kMQlySB08jA_Ji36IcoKNK4l7zosn5scKVeQRYMVvDuqJL9KXmHpDhX6yPFiVLEvVngzJHNBKB4rT6Qq-QujqGAKe31UtAi3O7PA2rtRvKNF_MN24nSNjk2f3BRxumvYOheAreNQA8VIf7Gk-x-H1ZAQrkEuEkgWCGCrjwL-U-BORes4q89tCDyc8iCyhKBDq4HWdMm_XfPvl3iDTo4ZS6INai_K5TstAY3ErQuzWdGTh99AbrrBSIwCqM3BSMjalNYLzsaJzu-dHg0lv00Jlq57WpXiCrTSQ3M6AryLIRfftFGLTSzBRrcoo5lni4aQ.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/j5pvCXvL/Hridoy-TV-new-channel-(23).webp",60Kolkata TVNew
+https://ag.hridoytvx.workers.dev/live/pp72kaWJ95oRYIgGBxh6uyu_pfZKFdub2K90TFjaOYo6XLhD5aTsijnnsjX2Kt4iyf-WdvVmiCfbLQ5E97FXEOpzSc7Uif4KsLWy3UWnmlAwsrBhvXlJWr1WmxUseUXh06-rmHoXU5m_3A0iAomYLC9Js2t50ITKgnybIAe0_5WnoxHEUfMz_CiqH2PEYkxfnD8m3MEN0UVclFt-iziwowkFaA3LRyb-DW6QnBeQUMNUi9OybBgnk3R_3qwthaLnVMfNMLt-9f2YyxVJsv3pkaM6LXj20kTo59mBW5hdvCzyMCa0sJ-gbcEV62zWQx_ZCUqIWfrTWLFwbohs2BxCdOUNkbAhfas46AqxVN3V5S4vP1u0_33a0Jdo-5PMqsamp0zD-c0uyDOy-hteSE61EOn-SiMbW7iga259aQClPf8CKzUbt6IfCHf6OOhx_8dwupy9iXqLyDOec2NDykwGwRdpOdAm5Q.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/j5pvCXvL/Hridoy-TV-new-channel-(23).webp",61Kolkata TVNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/kolkatatv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/4dDwn5wy/Hridoy-TV-new-channel-(24).webp",61Zillar BartaNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/4dDwn5wy/Hridoy-TV-new-channel-(24).webp",62Zillar BartaNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/zillarbarta.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/66L646MC/hridoytvgate-(21).webp",Tv 9 Bangla
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/tv9bangla.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/gcqcLcg8/hridoytvgate-(20).webp",63News 18 BanglaNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/gcqcLcg8/hridoytvgate-(20).webp",64News 18 BanglaNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/news18bangla.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/fyKMG53y/hridoytvgate-(18).webp",Republic Bangla
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/republicbangla.m3u8
@@ -131,7 +133,7 @@ https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire4373883121
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/abpanada.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/HWPZcf6F/Hridoy-TV-pro-(16).webp",News Live Bangla
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/908.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/8c3t26FZ/Hridoy-TV-pro-(15).webp",67Raatdin BanglaNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/8c3t26FZ/Hridoy-TV-pro-(15).webp",68Raatdin BanglaNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/2027.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/T3bsd7vy/Hridoy-TV-international-(3).webp",Al Jazeera
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/alljazeera.m3u8
@@ -141,41 +143,41 @@ https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire4373883121
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/foxnews.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/BnFzSYfF/Hridoy-TV-international-(5).webp",Euro News
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/euronews.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/XY5PjH6y/Hridoy-TV-international-(4).webp",72France 24
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/XY5PjH6y/Hridoy-TV-international-(4).webp",73France 24
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/france24.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/xTh7SrhL/Hridoy-TV-international-(2).webp",73DW
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/xTh7SrhL/Hridoy-TV-international-(2).webp",74DW
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/dwnews.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/j5wZs9H9/Hridoy-TV-new-channel-(9).webp",Press TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/iranpress.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/76Gmxc3j/Hridoy-TV-new-channel-(10).webp",75Global News
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/76Gmxc3j/Hridoy-TV-new-channel-(10).webp",76Global News
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/globalnews.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/xtvzqfq6/4497388a4091.jpg",BTV
 https://btv.hridoytv-channel.workers.dev/btv.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Rhn6qk5f/Resized-Image-2026-07-24-12-00-40-9321-2.webp",BTV News
 https://btv.hridoytv-channel.workers.dev/news.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/2yBb3sRW/Resized-Image-2026-07-24-12-00-40-6889-1.webp",78BTV ChattogramNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/2yBb3sRW/Resized-Image-2026-07-24-12-00-40-6889-1.webp",79BTV ChattogramNew
 https://btv.hridoytv-channel.workers.dev/chittagong.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Hkw2RpJH/In-Shot-20260720-204450298.jpg",79BTV SangsadNew
-https://ag.hridoytvx.workers.dev/live/GOoM9Tooz_TZxa4XpWBKwFDYv_6ZrDOnMRbBsIZz7CnPAZMTUYWRwAbDwCtyPpBjInBf6goqE558asxvUaIxjGReWFc2cEbK31aMJ79UpZAQTNK0Gov9MHdmwUwLAwsrmprsrwe0jPV0EYKkmt93Y6ZTwvy_ylThySSBo83XERDJOYh3cSWBvwvNNc9dRoRPdc6nVsuIWetbKIefN9NieXDS3EFHWtfpV-fKCdeSkK0t8LqcQFBwigACyFEqXkL6Sx8fXpKDEoAlln7L72pW1EwSmmRc_M_SU4XioadbLImFfdwOyhyfDwvkl34oFLbVERAZRzWM-PH4LJuhilGq054seXtCLHKNCFZoYE3jRHBPrKr57x06WblHqXTvaV5p-ha3RHDkA0h5nOeXFH4iqhqEG-EKR42GkzefcQk3kClBCx0W27qgp2d485XO_x93t3IxWEOBvTg8AHBdkJ2pypwNbXhfjg.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Hkw2RpJH/In-Shot-20260720-204450298.jpg",80BTV SangsadNew
+https://ag.hridoytvx.workers.dev/live/g457PwXwbN1USDgDPpmmkZ_0n28KI95-yEZiKUbz53C6zd7Xxek_W5CD4y1LI8gPAeTujD2gP9tTOTSdbjs5BXfJRwmtsWYtLBpcimhfUN1hyp5BVGxsNZ5gEWAzbwvsgxyhFHdnGrU-oF-JBIrTb1O9GPjJ16usVZWtZznXYNkna2nmFDIVttQoiUKkmCrY_iGYauS0fIn-yv7B21WKQdudw_O1-ERoz53Lt4T_u27ixbc90MiknL44vopTRHCJkE6uHczpQWhTumd1JCH-Vh1ELyWGxTj2zeELNZfmOIR1dJBapzF3vVgpEF_Etr7wXCeKrvdBV4AYboQPlI0HHfk3soqsP4E8CRl5g_o57wf4pSlaoCCPhFKxMP6VilLHLAewvuriuQUxusYEiKQX8_Q86n3DN7wriSOItCB6TY74--CMTXBNi9WpF6wWUxUTmCPglZILcFWjwylLRsA0whVSL5vK8Q.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/jPYGdxxX/0a6b9db45240.jpg",Nagorik TV
 https://wpu.hridoytv-direct.workers.dev/nagoriktv.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Df31qr13/a81357f8ba2d.jpg",GTV
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/gtv.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/nNwn22hW/392fa4f22dd4.jpg",Maasranga TV
-https://ag.hridoytvx.workers.dev/live/hqQ7l2fm5lHQBiHI9EGyMhlXUEDJZncqXRxmlPJRClJLZwNY9l-90Pe4hTZcnR4e5lkr6d-fgQeL_3ZdwCmUDq5IvWY7XFdNOh31wza7IjUBOvp8WklPnuWdqRc5Q08YS-JiTovjkIqxe5nab9jiJzAKqH1QWmRC-TNhM5fOLDBNqgUHTyvnLwgAPuRRfN24lWvNZpZgpvoZffY4QhG80L2YC90qa2K9myADKoUdkTakhEzROeIccG27_75_jisF1_qo69-ysSINtcqmiTiA9SsB1o9bEfIpq7GNjCHzRsRO_rGcR0eryDLUD0IIZyKn3cXYjGnk9sRvyJ63xStVHlU7MkImzrZLAJmuulrqsYnB0DaGWUalMrJkVoIKomv_OcIP4CX0tZQQtnqz7j5E2zu_zk0iPh0zHMkijO0BZlhJpw7_nMAPzqa9hgkaFozBLeGnm-GFtAqRpTLQ8Pyb68t3lXEMWQ.m3u8
+https://ag.hridoytvx.workers.dev/live/txcMjTB9wpFsjE4dCWGGtbndKHL72WVf2tjaYF9VGlSXdpDtO2UwuNMJy9e5q9Ne34ePKC8jmS6wWtMM7sgfjmDElFN83580-p-85otAevQJRa-rx9kTUJuLFBgDDgg2ZIOSIVI90WJAX6I9QLEIYnDOTP7mwWvHqx0X4MqZA1Y9T9DpkvtJntmk3e0CC-f0vmvvThZQDcYxDAphc-naL_ERARV8AGaPeOB978IBexOwlou0fuggstZyoc-kXUt6YNQnIc5Kt-7oMQwe66xD4brBkJtd4dkr9Bh-eYawwJIPG25os12wbalgkjj7hdQkBU7u2eIOtQN7zKtOu4iu4-lkGsYBQUZxa7nDES_GOft7WOwYKm2A65deocY2oBXRcSvfEV8wMj7ZJdenUwFLnEMCjV6bIY7ps25p_lw4d7Z7LHBlDO6U0GJH7UmHvdggte04HjCaqWb6KuluqTMR05eLCmJSmQ.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BHV4kWFx/ffe2fcb27c15.jpg",Deepto TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/deeptotv.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/QFZRjVkC/cb928a1f3b49.jpg",Asian TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/asiantv2.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/GvnLQr2Q/6bf3cbbdd636.jpg",Banglavission
-https://ag.hridoytvx.workers.dev/live/XcKkFeocm1CnatHdzMBMg2Ne1QgEC861_Qe4PraDZZsvU4VejSPlaxk3h1HKOD_rnYcF3Vaqv80vLdyHzdFK-TSzCEGhGI5YCj_7RwgDnBhBgolp6BRtm6G-7kjGYNt9sQSIb_0s2x6iz1ho0L3oshFa8fr52zmkk15Al37vWkB5VgFe-GY7fQcKFoCVBc2Y8W66g3hxe52tlHcQ2rgc5VAREFw4QVrI4TBvUH6A26AwRtjqhEpH_14_r2RpBqfsuC7DCf5bnMFEZR8OqDVhd8lCPUS3yZS4LBO-TdE9avhj2ZpND_AHDAM5KCqNRnMU_nzArkaUu-20uDfbFi26Ul9eArGqh4owLd9KMaOzfve20t6mh98JrPzVMR5zgKx7Arm2p7rQ7MHbWiz9hgqesWKbKvZDAG5cIeVXHlYTSZjD85gOr8vtjyunHKcxrzocEA-5BJdi4khyfEJ-y278amquXK-7jQ.m3u8
+https://ag.hridoytvx.workers.dev/live/OI9eaeSY_WuJqde9C-OrTai5TeCB2MlppZzDmjreqUE0DNrhcO5WfIAYiR8Um0wInJBQDakUDZSfY7WiUQw9hKc9TodFvc8AMt3z0WFx34WAAltayZF_mBFekuyCiEWi0h1G2N9fUfIwZpyVvp0qS_i71bWWbSNq19LjTzjh3V4Yk93jzT5QvxogbB8zXwa7ftZM_0-Or_SjEMDwarY0ltw1eWzcSK0BJDuM1ZUdoNNFbbN8vswk4XFEQXGAKhk0npuhouaZjMbQaBcowhyh8XIIAdcGlB1VeXtPP7IJVegS7Ny10oYkQq0WBoy6UhmhLvdScS5FuEgZslVrdsNwpwb3nJjNXU0ju7nnngtjSvqUJgPlBjfvfbndYW7SgQEj289fjxHvS0MzLtojmJ9F_fvauWOiFeWAQOqYHhFy-OKHxkmLARA5NGtTwAshu5o_aDtwsRmupmLdcPa_hCEYuxYfKEOq9w.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/b59NqBFG/2938e75dce23.jpg",Boishakhi TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/boishakhitv2.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/0Nvgr5r8/Hridoy-TV-new-(1).webp",SA TV
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/satv.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/99T05yyw/fe2bed6ac5af.jpg",NTV
-https://ag.hridoytvx.workers.dev/live/fuZ4KK-UwfqIiXgEcFfvPbQAFqLcpcehiNQty1e7fSFZ6VuCUSP1mmxIMsGyvk5WKiORXaQGSKD6N2iDO1Gfdu_4l3_DhxgGqwAiHc7rJ3xaYKBhQ-W0un_uNd9G23yXWyZBseEopOw_2xR6Ys0H48b0zLwtDjbRaFR7_lxxP3BpgWqlS6z3zUePk9LddYnei9gOy5-mnl4tkt4VywUqsK-kuiPicRtPHBo5J5Fyq3UbBZKaEBjAvPsQgsN8vdBhoi24LGelGm2AzvOQmG7dNDAp4Xx5oxbvPuyM0HBqj-B5fjYbDjDhTF-sLDet3vXGUaRake1dWXYjDQGKwlLn0eoKrd8dK-Tn2XXqHl3SLWuChEEyStzoTafST63nJkWEti-i_igR5-RSecwYKKF6Miv3F4O4MN0khLoQc70mo9ccmszHU4jhMbkO7mBnsGMuFGA-Nee-8WtA-YNpYmBqhH_nZR3qwQ.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/ncqtNZMw/Resized-Image-2026-08-09-12-00-04-8367-1.webp",89NTV EuropeNew
+https://ag.hridoytvx.workers.dev/live/ItVdj_WpGiMBA0eGIK-POqAYqa06_j15quiGcHB9PosII-zBlIk0sjfqzQxBRl4LiYAo_6mBWEZWFCdGPRNMjT8jAkJrBwEZ3iqsjUpzZleHzMBsOkfu10DGsivZ8vw3wEpRcvtud2zS3VZYix6d8818HX8OExmj_w16dvqp3-PLY7OJMk3_OO2gukOTLhIpCJARqeZE5kKbgOj3Viv7Hfilo2KixxdpGhhYHuCZZgVQ7s9AabdQolVeZA_A-nisIZ93FgwJivaKrnywN6fJzH__zGeODbsXiMBFcrkS3k949He7Cb825oyTLSeA9cnjNgbQqh3irZVxBPNKhF0mXGjtM-9rT3FtUCqxJEbXoAGUb3iRegkr8JBXwnwkLpnYCJ7robytMKRfvsOM1jZyTuNdFgMdAiOofLl649z_kg-NB1y6xotpehPZ9LlhIhOzp0Z6LbSA-3yqaS7WKD2Kg1waMucZLA.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ncqtNZMw/Resized-Image-2026-08-09-12-00-04-8367-1.webp",90NTV EuropeNew
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/ntveurope.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/VNwy5s5f/Hridoy-TV-new-(2).webp",ATN bangla
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/atnbangla2.m3u8
@@ -185,37 +187,37 @@ https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire4373883121963
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/movie_bangla/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/QjrPw1s1/7a733e74ad4c.jpg",SRK TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/srktv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Pxr3sFRj/Hridoy-TV-Bangla-channel-(9).webp",94Bijoy TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Pxr3sFRj/Hridoy-TV-Bangla-channel-(9).webp",95Bijoy TV
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/bijoytv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/MTKP2rFJ/Hridoy-TV-Bangla-channel-(8).webp",95Channel 9
-https://ag.hridoytvx.workers.dev/live/Dd7FQnbxXErLEfaOwghhy8mP7kjnAp0NkDFbI_Us_YLDQjI1EpFdnm3ByV4hLhiPyGeU9kfMbU3zzsDVBQNiCEbm0Eqgfjeh3KW09O2Mx4gqVwgT9pR8VHQPuvZsRD3DKh4eGMea_ARE0J0ktGCjWDMNgxEBnaaga4JIQkFhFgFrgnB6xBkyt2Wl7rDj09r05Jjcjk-1xc--vvRM4n01xyY82KcDSK0bPYMBPhfOo9tbVwghB1Roxfc8hnuXp520u2l5Z8_swl9NPx6fbFMdMM_zXxcS4iM0ge44wZEG5oE-n20I_d9zlF1RYEjN5LjLV40G6SEEB2IhFw14ySS6q95_eBC2UffcDPQ9F2Cws8v4im40sImWb3NMA79bWktXwULbkK-HuDPdtMEZLiFN6EHmm-nZLqLh1s5o8ApRqwsIJCsS0KuXKZtreCXGzgOyeRdFoGPwuP9eknRQDR-xRpI3ukXKBQ.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MTKP2rFJ/Hridoy-TV-Bangla-channel-(8).webp",96Channel 9
+https://ag.hridoytvx.workers.dev/live/lSPjJufAtYT9xD-1G3V8tCc2BpWh4R56WP7DKR0ZqHeghDHDC3tFK9kFxQW4NYhVDyVOgmSUkM0HwkE4yExwGzFYX6T8MsMOLyFuAnVqN7Hz_QsKOXucRpDhpcKI2KJ_gMkfGY1FcHMohKDD-T_SYkfmr7oUEu9_SJFMm2vDjTasiHggm077rHkmBgbgQQh2QVazTd3dvFHJYw_TZuTMgltT67CxccVrqQ8ey64cnjBluopOwhKX8m0Y8KDRyzJfaH_3RY07FS9fiO8EtNn-_6TN2c_61Uom3xVVRm9MPq4ZuurzAaakGvJiU4kzuzLeVop-BsVZrORZdNT1rE08rLIV_HYdR7gU0-YRnlXNsoisCOcflpHn6vWsCBAeDdubHiHwEpaH2wQ7wIfANt2tK6-eC5WVEXGvOENb1uxHg3vPAN29GyJJ-uByqcKrnAEmyFSRZCEe99KSJLcM49kUSgm3vjAiDQ.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Y9qnKysw/Hridoy-TV-Bangla-channel-(7).webp",My TV
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/mytv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/DZyjkYMV/Hridoy-TV-Bangla-channel-(6).webp",97Desh TV
-https://ag.hridoytvx.workers.dev/live/ut5WQDBK-0UELN8fgeQY9Vgmvv9GoEL4zS6B5C6mRBhfYL3p3Yl28TSbTscorng5DFBm373g2Ys2jAidD-1Y-MyTPxYORhq4LSC3RQH7-TItZV7V3PKXVSAN4MwBfXBahiV6R_1FTva5qmU53t2MTICZV-JIEC3uyXUaw0Bo7wC0BeKRZ_yPzm7bJO1z4GEkcrQat9NoNG_v7F35bjLOEvMAPGo7PLv9m8RD7E7bpJBujENDXpqv646nR1JQRlOEwmQIhrBhR5BCRQE8zq1ZZ8Tf1SpjQIuMmTWG9Xkj1NkLITKSdCKFXIfRkkixtgMq7G-BRz3cbFFzETHMmqqUgQXv25lblrxrwXec41FDHB6fYLX1OL9uyjj1bzsFQn98FfhYyBYxsksVM5YaVQUFc98ijrd2aAMwe4eAD14rS_YTRJFQlb75EQmvLj4xz3IFPL7RoCl3amaDAezzN9A9gfwvmDaG1g.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/DZyjkYMV/Hridoy-TV-Bangla-channel-(6).webp",98Desh TV
+https://ag.hridoytvx.workers.dev/live/o_ik7_GEvFTAQrk04pAM9ddJ9Hoxmut6u9CkIsK_n6alRfK6FN39MhnhUIS3PpzpDF3ZSrVFi3Yni5h1qo-KfSFy6KDpx7Bc5K1yaHccKXg1a-LANHbIsr-Tzeu5BEIcGYS5EmS-X1QeUNaUhfPPEdrgPwK7W-UgKIQflJUPVzd5VioxvlZGlHEy643CZt8J2qLwKHnyZdI_VEoyZXgSKb4ao9mRUGzsmPhkxUp2MZ_8ElQRMfy09kl3DAFg2siiM0s6ezLEa_fxL2d3F3aFsmqATgSZrAAhv9oYDG7ynC3gQk9IlJA9MscbB10XZrpf_f6OVxNwnlp2l-75_6txts3OliScHReZK3zZCAud6eyr2EcxsUQxv27ZCxa95IkfMlOyGe2ac-Cq-4zjimX7zBEtj1xPSlYmZQCWBhTGu-2Lb3-Jwm6BaPJbTosBbR9J5sKj1RsxlQvbW8PWa7IYc-lcsmRG6Q.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/85PKQn0Q/Hridoy-TV-Bangla-channel-(5).webp",RTV
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/rtv.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/50N7dkkh/Hridoy-TV-Bangla-channel-(4).webp",Ekushey TV
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/ekusheytv.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/qRMbVZZS/Hridoy-TV-Bangla-channel-(3).webp",Channel I
-https://ag.hridoytvx.workers.dev/live/ppH6jgqxXXXYsSP5OUofBmc0eZ5lM7sHufcs7J7XC2Kk3W9EnbvcIxz7_BvZ9NUc8wKHQh6116X9hiBiW9s84YmtmtiR-yXOJcKU3FrVdnSrcTS-e-JwCsLgbCb5uXAUMfd2DnC19H_YTW7QBRWNIAh8O-une732Ca0dQ9EpCkWT8m0CXZI9_38dqCOfafmV1HTKsfUfYZkmpFgZQRTWlLVJK6nLuMT8pt0Hu3Bwqhm-6KYxohCLvv0LIXVazFA3mU8VeuV7P7MEfPcDt_mW87UaTuaAUwl1ztTYnZQpR8oGp6BjaIZROcz59qKnkxNE14qjwG201AGC4m13DdXgkbOoLPG7mx6jdLYdc4eJ6t2SKQ16zrK5OwO3YMbgeRNsOZ5rCJymeoNFAikRKKkDkkD_hxm9fAZOdPpYgsnhBHjDRMzvFPDI_GwBV2EvT6_T8eIGKB2JE_HyUGUHqsH3LAjZcs6-Sg.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sXD6d00t/Hridoy-TV-Bangla-channel-(2).webp",101Mohona TV
+https://ag.hridoytvx.workers.dev/live/JFZ_-hUTrC3NsAeTu0k244Q9wohvmQInFDp6PQkg6TRQhRHNTMnad-sIttwiirhQRNYYy2pN2hJ7J9QwOS1zwxUOj3uqb6veeus7RmFqlu2tA-71ympIPquofKwmLB5ktKL9P0CbJ_B8W_9GjD3n4iO-B64mzr73aVhDcZoEXrBKRXPPW2hXLm27oNdIQ2nIriE-4yB4X6GMd6p7Up00-Vx3bQSxhRxa6gRg-3o2Fk8d9OTVCQ1K5hzJZdmFF3XzTmmL9iBO-_gLW2uhchxtYdmRCBiap16_iih92o5RSu_UEFy8S8Nkh1s5xMTie_qVydXGfAxLwLznVluqK4oHU2QYgJkWyDHXy8QlvCQ_Olz_Zzd6TW_xHvIQsHYoZyOS0NcKyV6L2ZokM6rPzAK-SLhVZMH9_SAMcb_re_ZqJf6Im_pE6fIEAr-I-QKhPFxiRW69CozJCZzYRhKJokuAmr13ox44-g.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/sXD6d00t/Hridoy-TV-Bangla-channel-(2).webp",102Mohona TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/mohonatv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/LX6CK0b6/Hridoy-TV-Bangla-channel-(16).webp",102Rajdhani TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/LX6CK0b6/Hridoy-TV-Bangla-channel-(16).webp",103Rajdhani TV
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/rajdhani_tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mD2Xf65L/Hridoy-TV-Bangla-channel-(14).webp",Channel S
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/channel_s_tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/zBsp3jpb/Hridoy-TV-new-channel-(25).webp",104Channel S Uk
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/zBsp3jpb/Hridoy-TV-new-channel-(25).webp",105Channel S Uk
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/channelsuk.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/gJkSFBTc/Hridoy-TV-Bangla-channel-(15).webp",105Nexus TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/gJkSFBTc/Hridoy-TV-Bangla-channel-(15).webp",106Nexus TV
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/nexus_tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/KzvqSsHZ/Hridoy-TV-Bangla-channel-(13).webp",106Green TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/KzvqSsHZ/Hridoy-TV-Bangla-channel-(13).webp",107Green TV
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/greentv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/1t5ChYjP/Hridoy-TV-Bangla-channel-(12).webp",107Global TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/1t5ChYjP/Hridoy-TV-Bangla-channel-(12).webp",108Global TV
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/globaltv.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/C1LPT6Q0/Hridoy-TV-Bangla-channel-(10).webp",Bangla TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/banglatv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Jn46Vd2M/Hridoy-TV-Bangla-channel-(11).webp",Amanda TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Jn46Vd2M/Hridoy-TV-Bangla-channel-(11).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/anandatv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/SRPRvPgS/In-Shot-20260815-130532076.jpg",TV Channel
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/millenniumtv.m3u8
@@ -224,11 +226,11 @@ https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire4373883121963
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Fs0Qwm1T/Resized-Image-2026-08-09-12-00-05-1963-2.webp",TV Channel
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/deshbanglatv.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/FLcSY5Vn/Hridoy-TV-new-bd-channel-2.jpg",TV Channel
-https://jalshabd.com/stream/79.m3u8?expires=1786798268&signature=ac2bd8e103a215fcc3242cf5c01bbf9fd9dff5342db2a40b2d442fed115d3a33
+https://jalshabd.com/stream/79.m3u8?expires=1786819869&signature=848208215d3db4d49ca29ee0b9a8b70868d29e3adcfab35c3cdf720eab39e17a
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/jjKhkmv/Hridoy-TV-new-bd-channel-1.jpg",TV Channel
-https://jalshabd.com/stream/105.m3u8?expires=1786798241&signature=f81f70302eac2c999b14742855f144d4398f2b6407321d007940692c5f09412f
+https://jalshabd.com/stream/105.m3u8?expires=1786819844&signature=800806af65366e9d35d87f51c8b7058ddcc3fc78ac0040b94dc08fd15f4d3637
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XxP6LhMk/Hridoy-TV-new-bd-channel-3.jpg",TV Channel
-https://jalshabd.com/stream/75.m3u8?expires=1786798251&signature=243596d11abcc4a3719b198a1c93dd3e6c9c138eb2abf2fcb929eaa7af9c2f53
+https://jalshabd.com/stream/75.m3u8?expires=1786819856&signature=1c9cfcb4a6e47a9a5316ce416fdf4945ba39a77329be8cc155af01574d2ab4f6
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/xdRg07Jq/Hridoy-TV-pro-(73).webp",TV Channel
 http://158.69.24.53:8080/probashi_tv/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/0jdcdt2V/In-Shot-20260809-120606005.jpg",TV Channel
@@ -241,7 +243,7 @@ https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire4373883121963
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/iontvuk.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mr6mWR9G/Hridoy-TV-new-channel-(1).webp",TV Channel
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/banglarkontho24.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/TPHtvGbM/Hridoy-TV-new-channel-(2).webp",122Biswa Bangla 24
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/TPHtvGbM/Hridoy-TV-new-channel-(2).webp",123Biswa Bangla 24
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/biswabangla24.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/rpYf2crB/Hridoy-TV-new-channel-(4).webp",TV Channel
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/aynatv.m3u8
@@ -255,41 +257,41 @@ https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire4373883121963
 http://27.124.71.27/Willow_Extra/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/c1VLJ4r9/Hridoy-TV-bangla-(9).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/metv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/MHDzCtcq/hridoytvgate-(15).webp",129Channel 52
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MHDzCtcq/hridoytvgate-(15).webp",130Channel 52
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/channel52.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/wxSjBT1g/Hridoy-TV-bangla-(21).webp",130Deshe Bideahe TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wxSjBT1g/Hridoy-TV-bangla-(21).webp",131Deshe Bideahe TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/deshebideahe.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/J79zh4Gp/Hridoy-TV-bangla-(6).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/jonmobhumitv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/fW6RbTV4/Hridoy-TV-bangla-(16).webp",132Galaxy TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/fW6RbTV4/Hridoy-TV-bangla-(16).webp",133Galaxy TV
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/galaxytv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/tRL4gCYf/Hridoy-TV-bangla-(13).webp",133Thikana TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/tRL4gCYf/Hridoy-TV-bangla-(13).webp",134Thikana TV
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/thikanatv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/44rx3NmP/Hridoy-TV-bangla-(7).webp",134CBN TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/44rx3NmP/Hridoy-TV-bangla-(7).webp",135CBN TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cbntv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/T2Z3PYK6/Hridoy-TV-bangla-(18).webp",135Citizen TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/T2Z3PYK6/Hridoy-TV-bangla-(18).webp",136Citizen TV
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/citizentv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/667QwG5j/Hridoy-TV-bangla-(4).webp",136US BD TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/667QwG5j/Hridoy-TV-bangla-(4).webp",137US BD TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/usbdtv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/PfLqh8r6/Hridoy-TV-bangla-(3).webp",137NRB TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/PfLqh8r6/Hridoy-TV-bangla-(3).webp",138NRB TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/nrbtv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/zDLf5RX2/Hridoy-TV-bangla-(2).webp",138Ja TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/zDLf5RX2/Hridoy-TV-bangla-(2).webp",139Ja TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/jatv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/9XvQfFD2/Hridoy-TV-bangla-(19).webp",139EP TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9XvQfFD2/Hridoy-TV-bangla-(19).webp",140EP TV
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/eptv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Vs3kNLdF/Hridoy-TV-bangla-(5).webp",140Jhankar TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Vs3kNLdF/Hridoy-TV-bangla-(5).webp",141Jhankar TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/jhankartv.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wxSjBT18/Hridoy-TV-bangla-(17).webp",TV Channel
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/alponatv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ0gr2tv/Hridoy-TV-bangla-(15).webp",142TIME TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ0gr2tv/Hridoy-TV-bangla-(15).webp",143TIME TV
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/timetv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/zD9GfXV2/Hridoy-TV-bangla-(10).webp",143Bangla One
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/zD9GfXV2/Hridoy-TV-bangla-(10).webp",144Bangla One
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/banglaone.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/667QwG5m/Hridoy-TV-bangla-(1).webp",TV Channel
 http://103.190.133.68:1935/news21live/live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/G3ZmphHq/Hridoy-TV-bangla-(8).webp",145Channel Europe
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/G3ZmphHq/Hridoy-TV-bangla-(8).webp",146Channel Europe
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/channeleurope.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/bYKwvNs4/Hridoy-TV-bangla-(12).webp",146Shikhor TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bYKwvNs4/Hridoy-TV-bangla-(12).webp",147Shikhor TV
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/shikhortv.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/v4j2n2rb/daf4f35fe617.jpg",TV Channel
 https://dip.itshridoy.workers.dev/starjalsha/index.m3u8?expire=28826463737
@@ -319,37 +321,37 @@ https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/
 https://dip.itshridoy.workers.dev/colorsbanglacinema/index.m3u8?expire=28826463737
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/brqnyQ24/Resized-Image-2026-07-01-14-41-48-1300-3.webp",TV Channel
 https://wpu.hridoytv-direct.workers.dev/Jalsha_Movie.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/MKrPBSp1/Resized-Image-2026-06-24-04-15-46-6347-1.webp",161Zee Bangla Sonar
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/MKrPBSp1/Resized-Image-2026-06-24-04-15-46-6347-1.webp",162Zee Bangla Sonar
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/zeebangalsonar.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/Cgg8ACl.md.jpg",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/zee_bangla_cinema/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/sxLxNLTs/In-Shot-20260815-130546794.jpg",TV Channel
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/amarbanglatv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/fyyk5sfM/In-Shot-20260815-130619999.jpg",164Amar DigitalNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/fyyk5sfM/In-Shot-20260815-130619999.jpg",165Amar DigitalNew
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/amardigital.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Kckb55g4/6b5faf74bc3e.jpg",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/khushboobangla.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/3rCr0rtB/hridoytvgate-(23).webp",166ZB cinema
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/3rCr0rtB/hridoytvgate-(23).webp",167ZB cinema
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/zbcinema.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/W4nS2KFh/Hridoy-TV-pro-(74).webp",167Tara TVNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/W4nS2KFh/Hridoy-TV-pro-(74).webp",168Tara TVNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/taratv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/7hcmF2C7/Hridoy-TV-pro-(8).webp",168KTV BanglaNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/7hcmF2C7/Hridoy-TV-pro-(8).webp",169KTV BanglaNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/1891.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/5y3fhpHN/hridoytvgate-(16).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/banglaplus.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/76wsjrHn/Resized-Image-2026-06-24-18-10-29-4640-1.webp",170Orange Bangla
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/76wsjrHn/Resized-Image-2026-06-24-18-10-29-4640-1.webp",171Orange Bangla
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/orangebangla.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/pv7XdDBw/ba525ccde969.jpg",171DD Bangla
+#EXTINF:-1 tvg-logo="https://i.ibb.co/pv7XdDBw/ba525ccde969.jpg",172DD Bangla
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/ddbangla.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/cJZXGZJg/Hridoy-TV-pro-(58).webp",TV Channel
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/482.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/MKC9t1JK/Hridoy-TV-pro-(47).webp",TV Channel
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/1763.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/rw5QHzqk/Hridoy-TV-pro-(48).webp",174Colors Cineplex SuperhitNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/rw5QHzqk/Hridoy-TV-pro-(48).webp",175Colors Cineplex SuperhitNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/1450.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sDkTK5dc/Hridoy-TV-pro-(39).webp",175Colors Infinity HDNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/sDkTK5dc/Hridoy-TV-pro-(39).webp",176Colors Infinity HDNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/1325.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/WbB5S0L8/Hridoy-TV-pro-(40).webp",176Colors Gujarati CinemaNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/WbB5S0L8/Hridoy-TV-pro-(40).webp",177Colors Gujarati CinemaNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/1324.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/cLmWkzdH/Hridoy-TV-channel-(4).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/sony_max_hd/playlist.m3u8
@@ -357,13 +359,13 @@ https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire437388312196
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/483.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/7ZV4tRqY/Hridoy-TV-channel-(2).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/sonymovies.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/ydMnWPnZ/Hridoy-TV-new-channel-(27).webp",180Sony cine
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ydMnWPnZ/Hridoy-TV-new-channel-(27).webp",181Sony cine
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/sonycine.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/523JKrft/Hridoy-TV-channel-(1).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/sonypix_hd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/jdw8zZ99/Hridoy-TV-pro-(38).webp",182Sony WahNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/jdw8zZ99/Hridoy-TV-pro-(38).webp",183Sony WahNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/1393.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Hsq63bD6/Hridoy-TV-pro-(41).webp",183Star Suvarna PlusNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Hsq63bD6/Hridoy-TV-pro-(41).webp",184Star Suvarna PlusNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/1140.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/2SwY9tCL/Hridoy-TV-channel-(6).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/zee_cinema_hd/playlist.m3u8
@@ -373,33 +375,33 @@ https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire437388312196
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/zee_action/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/cLmWkzdr/Hridoy-TV-channel-(3).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/zeeone.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/3xBhfq3v/Hridoy-TV-channel-(9).webp",188Zee Cafe
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/3xBhfq3v/Hridoy-TV-channel-(9).webp",189Zee Cafe
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/zee_cafe_hd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/x1RQpZ9K/Hridoy-TV-channel-(10).webp",189And pictures
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/x1RQpZ9K/Hridoy-TV-channel-(10).webp",190And pictures
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/andpicture_hd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/ZRBVTgPC/Hridoy-TV-new-channel-(17).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/b4umovie.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/3R4nK6jk/Hridoy-TV-new-channel-(18).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/goldminesmovie.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/6psDPp5c/Hridoy-TV-channel-(1).webp",192Shemaroo Bollywood
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/6psDPp5c/Hridoy-TV-channel-(1).webp",193Shemaroo Bollywood
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/shemaroobolly.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/632Y9SVs/Hridoy-TV-new-channel-(11).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/kungfuplus.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/jSVG1Sdv/Hridoy-TV-channel-(2).webp",194Nh Bolly Flix
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/jSVG1Sdv/Hridoy-TV-channel-(2).webp",195Nh Bolly Flix
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/nhbollyflix.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/fR46PRTf/Hridoy-TV-channel-(3).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/panjabishorts.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/50K3zCSR/Hridoy-TV-pro-(93).webp",196Bollywood HDNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/50K3zCSR/Hridoy-TV-pro-(93).webp",197Bollywood HDNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/bollywoodhd.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZKBfrVgV/Hridoy-TV-pro-(35).webp",197Pocket FilmNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZKBfrVgV/Hridoy-TV-pro-(35).webp",198Pocket FilmNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/3259.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Hxkzj2Xy/Hridoy-TV-pro-(81).webp",198Studio OneNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Hxkzj2Xy/Hridoy-TV-pro-(81).webp",199Studio OneNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/studio1.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/pTLCyZzn/Hridoy-TV-pro-(80).webp",199Raj Digital PlusNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/pTLCyZzn/Hridoy-TV-pro-(80).webp",200Raj Digital PlusNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/rajdigitalplus.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mDgjhwCc/Hridoy-TV-pro-(78).webp",200Movie PlexNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mDgjhwCc/Hridoy-TV-pro-(78).webp",201Movie PlexNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/movieplex.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/4dxPn5VN/Hridoy-TV-pro-(77).webp",201ETV CinemaNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/4dxPn5VN/Hridoy-TV-pro-(77).webp",202ETV CinemaNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/etvcinema.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/nLgBTjrW/In-Shot-20260808-131440307.jpg",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/durontotv2.m3u8
@@ -407,7 +409,7 @@ https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire4373883121
 https://dip.itshridoy.workers.dev/durontotv/index.m3u8?expire=28826463737
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/T1SCzDyb/Hridoy-TV-pro-(7).webp",TV Channel
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/1345.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/tJf2Kx1t/Hridoy-TV-pro-(10).webp",205Sonic HindiNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/tJf2Kx1t/Hridoy-TV-pro-(10).webp",206Sonic HindiNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/815.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/C5tm3qZq/Hridoy-TV-pro-(6).webp",TV Channel
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/1341.m3u8
@@ -419,7 +421,7 @@ https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/544.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/KzWhg9TZ/Hridoy-TV-cartoon-(8).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/sonyyay/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/brM37tG1/Hridoy-TV-pro-(9).webp",211Sony yay HindiNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/brM37tG1/Hridoy-TV-pro-(9).webp",212Sony yay HindiNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/872.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/0Q41JtSP/Hridoy-TV-cartoon-(7).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/cartoon_network_sd/playlist.m3u8
@@ -433,23 +435,23 @@ https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire437388312196
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/zbcartoon.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/9MkHqx9R/Hridoy-TV-cartoon-(12).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/gopalbhar.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Rh9Mp2ZJ/hridoytvgate-(2).webp",218Motu patlu
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Rh9Mp2ZJ/hridoytvgate-(2).webp",219Motu patlu
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/motupatlu.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/HnHpvFk7/hridoytvgate-(1).webp",219Tom and Jerry
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/HnHpvFk7/hridoytvgate-(1).webp",220Tom and Jerry
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/tomandjerry.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/vTMQ2CZg/hridoytvgate-(4).webp",220Mr. Bean
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/vTMQ2CZg/hridoytvgate-(4).webp",221Mr. Bean
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/mrbean.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/SKrVy52p/Hridoy-TV-pro-(69).webp",221Barbie And FriendsNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/SKrVy52p/Hridoy-TV-pro-(69).webp",222Barbie And FriendsNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/barbieandfreinds.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/7LVXxcCR/Hridoy-TV-pro-(68).webp",222PopNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/7LVXxcCR/Hridoy-TV-pro-(68).webp",223PopNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/pop.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/pdZk2791/Hridoy-TV-pro-(67).webp",223Smurf TVNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/pdZk2791/Hridoy-TV-pro-(67).webp",224Smurf TVNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/smurftv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/wMV9CF1G/hridoytvgate-(11).webp",224Minika Go
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wMV9CF1G/hridoytvgate-(11).webp",225Minika Go
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/manikago.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Z5DN2C3G/Hridoy-TV-(4).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/royakids.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/RFhzhrWv/Hridoy-TV-cartoon-(1).webp",226PBS Kids
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/RFhzhrWv/Hridoy-TV-cartoon-(1).webp",227PBS Kids
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/pbskids.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/V6rDYT9Q/Hridoy-TV-new-channel-(13).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/iuniortv.m3u8
@@ -457,49 +459,49 @@ https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire4373883121
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/nikikids.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Cxr4Vw95/Resized-Image-2026-06-24-22-21-53-5067-2.webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/funnyjunior.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/4d0Rh8cV/Hridoy-TV-cartoon-(11).webp",230Zoo Moo
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/4d0Rh8cV/Hridoy-TV-cartoon-(11).webp",231Zoo Moo
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/zoomoo.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/3RqQDLG3/Hridoy-TV-cartoon-(6).webp",231Nikky
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/3RqQDLG3/Hridoy-TV-cartoon-(6).webp",232Nikky
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/nikki.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/26yfyp1z/Hridoy-TV-cartoon-(3).webp",232Minimax
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/26yfyp1z/Hridoy-TV-cartoon-(3).webp",233Minimax
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/minimax.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/9fgftpdS/Hridoy-TV-entertainment-channel-(8).webp",233Sony entertainment
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9fgftpdS/Hridoy-TV-entertainment-channel-(8).webp",234Sony entertainment
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/sony_entertainment/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/PJ4tm75m/Hridoy-TV-HD-channel-(3).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/sonyentertainmnt_hd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wB4BcVXG/Hridoy-TV-entertainment-channel-(7).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/sonysab_hd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/L5TmcvqR/hridoytvgate-(14).webp",236Sony Kal
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/L5TmcvqR/hridoytvgate-(14).webp",237Sony Kal
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/sonykal.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/wxbfySWm/Hridoy-TV-pro-(26).webp",237Sony PalNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wxbfySWm/Hridoy-TV-pro-(26).webp",238Sony PalNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/474.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6Xz0ds/Hridoy-TV-pro-(19).webp",238Sony MarathiNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mZ6Xz0ds/Hridoy-TV-pro-(19).webp",239Sony MarathiNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/1146.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/L4kbH4F8/In-Shot-20260810-124534534.jpg",TV Channel
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/144.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/7PQsGpBZ/Hridoy-TV-pro-(23).webp",TV Channel
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/785.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/VLr7jDTb/Hridoy-TV-pro-(30).webp",241Colors RishteyNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/VLr7jDTb/Hridoy-TV-pro-(30).webp",242Colors RishteyNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/279.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/G3S78ZMG/Hridoy-TV-pro-(27).webp",242Colors TamilNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/G3S78ZMG/Hridoy-TV-pro-(27).webp",243Colors TamilNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/429.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/bYFCDK6v/Hridoy-TV-pro-(24).webp",243Colors KannadaNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bYFCDK6v/Hridoy-TV-pro-(24).webp",244Colors KannadaNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/757.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/bND6Q3MQ/Hridoy-TV-pro-(31).webp",244Colors GujaratiNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/bND6Q3MQ/Hridoy-TV-pro-(31).webp",245Colors GujaratiNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/196.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/qBZbh9mN/Hridoy-TV-pro-(25).webp",245Colors MarathiNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/qBZbh9mN/Hridoy-TV-pro-(25).webp",246Colors MarathiNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/755.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/gcBSXfMP/Hridoy-TV-pro-(18).webp",246Sun NeoNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/gcBSXfMP/Hridoy-TV-pro-(18).webp",247Sun NeoNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/3088.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/pdcdYZfc/Hridoy-TV-entertainment-channel-(6).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/zee_tv_hd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/8PLjQLGz/Hridoy-TV-entertainment-channel-(1).webp",248Zee Anmol
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/8PLjQLGz/Hridoy-TV-entertainment-channel-(1).webp",249Zee Anmol
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/zee_anmol/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/dtR1vzx1/In-Shot-20260726-210836372.jpg",249DD NationalNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/dtR1vzx1/In-Shot-20260726-210836372.jpg",250DD NationalNew
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/202.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/CKPdW8rb/In-Shot-20260727-222525786.jpg",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/ddnationalhd.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/0NfZ83Mz/Hridoy-TV-pro-(75).webp",251A plusNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/0NfZ83Mz/Hridoy-TV-pro-(75).webp",252A plusNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/aplus.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/DzpzdgQh/Hridoy-TV-entertainment-channel-(12).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/aanhd.m3u8
@@ -507,29 +509,29 @@ https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire4373883121
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/geoen.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Bbkd4q5P/Hridoy-TV-channel-(5).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/tarangtv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/vmZBVjVK/Hridoy-TV-entertainment-channel-(2).webp",255Hum TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/vmZBVjVK/Hridoy-TV-entertainment-channel-(2).webp",256Hum TV
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/hum_tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/hGZGbrLM/Hridoy-TV-entertainment-channel-(3).webp",256Hum Sitary
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/hGZGbrLM/Hridoy-TV-entertainment-channel-(3).webp",257Hum Sitary
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/hum_sitaray/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/vm2mLzrz/Hridoy-TV-entertainment-channel-(4).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/hum_masala/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/hGZGbrL2/Hridoy-TV-entertainment-channel-(5).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/and_tv_hd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/KYpYrNPW/Hridoy-TV-entertainment-channel-(9).webp",259Zing
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/KYpYrNPW/Hridoy-TV-entertainment-channel-(9).webp",260Zing
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/zing_sd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/fLtBwF7t/Hridoy-TV-new-channel-(19).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/shemarootv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/4dDwn5wf/Hridoy-TV-new-channel-(20).webp",261Dangal
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/4dDwn5wf/Hridoy-TV-new-channel-(20).webp",262Dangal
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/dangal.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/9M61zp1Q/Hridoy-TV-new-channel-(21).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/etvcomedy.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/V6x45R4N/Hridoy-TV-new-channel-(22).webp",263Sirippoli TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/V6x45R4N/Hridoy-TV-new-channel-(22).webp",264Sirippoli TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/sirippolitv.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/6qjNng9H/Resized-Image-2026-07-24-09-59-33-3513-2.webp",TV Channel
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/765.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/ryQTB05v/Resized-Image-2026-07-24-09-59-32-3758-1.webp",TV Channel
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/623.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/PJ4tm75Y/Hridoy-TV-HD-channel-(2).webp",266Animal Planet
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/PJ4tm75Y/Hridoy-TV-HD-channel-(2).webp",267Animal Planet
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/animal_planet_sd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/rpKwFP3S/Hridoy-TV-channel-(17).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/animal_planet_hd/playlist.m3u8
@@ -541,13 +543,15 @@ https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire437388312196
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/573.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/8kRTLdSV/Resized-Image-2026-08-13-12-49-57-4666-1.webp",TV Channel
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/3428.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/8ccH8jYq/Resized-Image-2026-08-13-15-29-20-5232-2.webp",TV Channel
+https://dip.itshridoy.workers.dev/nationalgeohindi/index.m3u8?expire=28826463737
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/bwXK5wNT/Hridoy-TV-channel-(4).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/historytv.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/VNdkLVp5/Hridoy-TV-channel-(7).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/discoveryasia.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/pdpLX648/Hridoy-TV-channel-(14).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/discovery_science/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/9frQFnK9/Hridoy-TV-channel-(13).webp",275Discovery Investigation
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9frQFnK9/Hridoy-TV-channel-(13).webp",277Discovery Investigation
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/discovary_investigation_hd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Lsn86bwZ/Hridoy-TV-channel-(12).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/discovery_turbo/playlist.m3u8
@@ -555,7 +559,7 @@ https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire437388312196
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/discoverychina.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Dz8wyMH4/Hridoy-TV-channel-(10).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/discoverpakistan.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/QtwrHBCk/Resized-Image-2026-06-24-23-38-54-4029-1.webp",279Asharaq Discovery
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/QtwrHBCk/Resized-Image-2026-06-24-23-38-54-4029-1.webp",281Asharaq Discovery
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/asharaqdiscovery.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/6Qyp5mgV/Hridoy-TV-channel-(16).webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/sonybbc_earth_hd/playlist.m3u8
@@ -563,33 +567,33 @@ https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire437388312196
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/travelxp.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/fbJRTrpV/Hridoy-TV-channel-(9).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/wildearth.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/1zf35j2s/Hridoy-TV-channel-(4).webp",283Nature Time
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/1zf35j2s/Hridoy-TV-channel-(4).webp",285Nature Time
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/naturetime.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/wB7jTGZ7/Hridoy-TV-channel-(6).webp",2844k Travel TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wB7jTGZ7/Hridoy-TV-channel-(6).webp",2864k Travel TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/4ktraveltv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZqsqFcPT/Hridoy-TV-entertainment-channel-(11).webp",285FailArmy
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZqsqFcPT/Hridoy-TV-entertainment-channel-(11).webp",287FailArmy
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/failarmy.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/LsQsBTk9/Hridoy-TV-entertainment-channel-(10).webp",286TLC
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/LsQsBTk9/Hridoy-TV-entertainment-channel-(10).webp",288TLC
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/tlc_sd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/d1z8gzKy/Resized-Image-2026-06-24-18-39-18-6733-1.webp",TV Channel
 https://play.hridoytvtunel.workers.dev/link-copy-kore-lav-nai=expire43738831219634/cdn/live/islamic_tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/d0S5cvCY/Hridoy-TV-new-channel-(5).webp",TV Channel
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/islamchannelbangla.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/85Jt13R0/Hridoy-TV-new-channel-(7).webp",289Iqra Bangla TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/85Jt13R0/Hridoy-TV-new-channel-(7).webp",291Iqra Bangla TV
 https://jbd.hossainhridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/iqrabanglatv.m3u8
 #EXTINF:-1 tvg-logo="https://iili.io/COoX76J.md.jpg",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/deentvbangla.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/DwYGH8LV/Hridoy-TV-(2).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/peacetvbangla.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/YCyFZhYK/Hridoy-TV-(1).webp",292Peace TV English
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/YCyFZhYK/Hridoy-TV-(1).webp",294Peace TV English
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/peacetvenglish.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/zGPh6VKY/Hridoy-TV-(3).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/madanichannel.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/3RdT8j89/Resized-Image-2026-06-24-23-38-58-6268-5.webp",294Madani Channel Urdu
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/3RdT8j89/Resized-Image-2026-06-24-23-38-58-6268-5.webp",296Madani Channel Urdu
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/madanichannelurdu.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZYFYvYwL/hridoytvgate-(22).webp",295Azan TV
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZYFYvYwL/hridoytvgate-(22).webp",297Azan TV
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/azantv.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/nzSkmDG5/Hridoy-TV-pro-(94).webp",296Eman TVNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/nzSkmDG5/Hridoy-TV-pro-(94).webp",298Eman TVNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/emantv.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/5NgbMT0W/Resized-Image-2026-06-25-11-01-24-2768-2.webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/atnmusic.m3u8
@@ -607,15 +611,15 @@ https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire4373883121
 https://rz.hridoytv-master.workers.dev/proxy?url=https%3A%2F%2Fedge2.roarzone.net%3A8447%2Froarzone%2Fedge5%2Fsangeet-bangla%2Findex.m3u8%3Ftoken%3D41f436222ffd8620578b311df409d2046a65106e-f18e4d8598d70199510218c7edbcc19e-1786784042-1786773242
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/L5RHQG8x/hridoytvgate-(7).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/b4umusic.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/LXj9Tm2z/hridoytvgate-(3).webp",305Zoom
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/LXj9Tm2z/hridoytvgate-(3).webp",307Zoom
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/zoom.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/J0qRfKsg/hridoytvgate-(12).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/9xm.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/FzZhMGfQ/hridoytvgate-(13).webp",3079X Jalwa
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/FzZhMGfQ/hridoytvgate-(13).webp",3099X Jalwa
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/9xjalwa.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/SKqDbqK5/Hridoy-TV-pro-(65).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/9xjakaas.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/Fzm9CwHD/hridoytvgate-(6).webp",309SteelBird Music
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Fzm9CwHD/hridoytvgate-(6).webp",311SteelBird Music
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/streelbirdmusic.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/hPscq6jW/Resized-Image-2026-06-25-11-01-26-5488-4.webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/balleballetv.m3u8
@@ -627,11 +631,11 @@ https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire4373883121
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/ptcmusic.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htVpYhKD/Hridoy-TV-pro-(51).webp",TV Channel
 https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/2936.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/sxc3kKMH/hridoytvgate-(10).webp",315Sun Gemini MusicNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/sxc3kKMH/hridoytvgate-(10).webp",317Sun Gemini MusicNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/sungeminimusic.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/FzZhMGYG/hridoytvgate-(8).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/7smusic.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/PJhtV05c/hridoytvgate-(9).webp",317Only MusicNew
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/PJhtV05c/hridoytvgate-(9).webp",319Only MusicNew
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/onlymusic.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/90pc614z/hridoytvgate-(19).webp",TV Channel
 https://proxy5.hridoytv-link.workers.dev/link-copy-kore-lav-nai=expire43738831219634/yrfmusic.m3u8
